@@ -1,0 +1,3581 @@
+{
+  "as_of_date": "2026-10-21",
+  "hazards": [
+    {
+      "hazard_id": "H-01",
+      "bowtie_id": "BT-01",
+      "hazard_name": "Flammable hydrocarbon inventory in bulk storage tank",
+      "hazard_category": "Process Safety",
+      "definition_clear": "Yes"
+    },
+    {
+      "hazard_id": "H-02",
+      "bowtie_id": "BT-02",
+      "hazard_name": "Pressurised natural gas pipeline",
+      "hazard_category": "Process Safety",
+      "definition_clear": "Yes"
+    },
+    {
+      "hazard_id": "H-03",
+      "bowtie_id": "BT-03",
+      "hazard_name": "Bulk toxic chemical storage",
+      "hazard_category": "Environmental",
+      "definition_clear": "Yes"
+    },
+    {
+      "hazard_id": "H-04",
+      "bowtie_id": "BT-04",
+      "hazard_name": "Rotating equipment (gas compressor)",
+      "hazard_category": "Process Safety",
+      "definition_clear": "Yes"
+    },
+    {
+      "hazard_id": "H-05",
+      "bowtie_id": "BT-05",
+      "hazard_name": "Hot work in classified area",
+      "hazard_category": "Occupational Safety",
+      "definition_clear": "Yes"
+    },
+    {
+      "hazard_id": "H-06",
+      "bowtie_id": "BT-06",
+      "hazard_name": "Combustible dust handling",
+      "hazard_category": null,
+      "definition_clear": "Yes"
+    }
+  ],
+  "top_events": [
+    {
+      "top_event_id": "TE-01",
+      "bowtie_id": "BT-01",
+      "hazard_id": "H-01",
+      "top_event_name": "Loss of containment of hydrocarbon from storage tank",
+      "top_event_category": "Loss of Containment"
+    },
+    {
+      "top_event_id": "TE-02",
+      "bowtie_id": "BT-02",
+      "hazard_id": "H-02",
+      "top_event_name": "Overpressure of gas pipeline",
+      "top_event_category": "Loss of Control"
+    },
+    {
+      "top_event_id": "TE-03",
+      "bowtie_id": "BT-03",
+      "hazard_id": "H-03",
+      "top_event_name": "Release of toxic liquid from storage tank",
+      "top_event_category": "Loss of Containment"
+    },
+    {
+      "top_event_id": "TE-04",
+      "bowtie_id": "BT-04",
+      "hazard_id": "H-04",
+      "top_event_name": "Compressor seal failure with gas release",
+      "top_event_category": "Loss of Containment"
+    },
+    {
+      "top_event_id": "TE-05",
+      "bowtie_id": "BT-05",
+      "hazard_id": "H-05",
+      "top_event_name": "Ignition of flammable atmosphere",
+      "top_event_category": "Ignition"
+    },
+    {
+      "top_event_id": "TE-06",
+      "bowtie_id": "BT-06",
+      "hazard_id": "H-06",
+      "top_event_name": "Dust cloud ignition",
+      "top_event_category": "Ignition"
+    }
+  ],
+  "threats": [
+    {
+      "threat_id": "TH-001",
+      "bowtie_id": "BT-01",
+      "top_event_id": "TE-01",
+      "threat_name": "External corrosion of tank shell",
+      "contribution": "High",
+      "human_error": "No"
+    },
+    {
+      "threat_id": "TH-002",
+      "bowtie_id": "BT-01",
+      "top_event_id": "TE-01",
+      "threat_name": "Internal corrosion of tank floor",
+      "contribution": "Medium",
+      "human_error": "No"
+    },
+    {
+      "threat_id": "TH-003",
+      "bowtie_id": "BT-01",
+      "top_event_id": "TE-01",
+      "threat_name": "Overfilling during product transfer",
+      "contribution": "High",
+      "human_error": "No"
+    },
+    {
+      "threat_id": "TH-004",
+      "bowtie_id": "BT-01",
+      "top_event_id": "TE-01",
+      "threat_name": "Floating roof seal failure",
+      "contribution": "Medium",
+      "human_error": "No"
+    },
+    {
+      "threat_id": "TH-005",
+      "bowtie_id": "BT-01",
+      "top_event_id": "TE-01",
+      "threat_name": "Foundation settlement",
+      "contribution": "Low",
+      "human_error": "No"
+    },
+    {
+      "threat_id": "TH-006",
+      "bowtie_id": "BT-01",
+      "top_event_id": "TE-01",
+      "threat_name": "Flange gasket leak on inlet piping",
+      "contribution": "Medium",
+      "human_error": "No"
+    },
+    {
+      "threat_id": "TH-007",
+      "bowtie_id": "BT-01",
+      "top_event_id": "TE-01",
+      "threat_name": "Drain valve left open",
+      "contribution": "Medium",
+      "human_error": "Yes"
+    },
+    {
+      "threat_id": "TH-008",
+      "bowtie_id": "BT-01",
+      "top_event_id": "TE-01",
+      "threat_name": "Vehicle impact on tank piping",
+      "contribution": "Low",
+      "human_error": "No"
+    },
+    {
+      "threat_id": "TH-009",
+      "bowtie_id": "BT-01",
+      "top_event_id": "TE-01",
+      "threat_name": "Brittle fracture in cold weather",
+      "contribution": "Low",
+      "human_error": "No"
+    },
+    {
+      "threat_id": "TH-010",
+      "bowtie_id": "BT-01",
+      "top_event_id": "TE-01",
+      "threat_name": "Lightning strike on tank",
+      "contribution": "Low",
+      "human_error": "No"
+    },
+    {
+      "threat_id": "TH-011",
+      "bowtie_id": "BT-01",
+      "top_event_id": "TE-01",
+      "threat_name": "Maintenance error during isolation",
+      "contribution": "Medium",
+      "human_error": "Yes"
+    },
+    {
+      "threat_id": "TH-012",
+      "bowtie_id": "BT-02",
+      "top_event_id": "TE-02",
+      "threat_name": "Blocked pipeline outlet",
+      "contribution": "Medium",
+      "human_error": "No"
+    },
+    {
+      "threat_id": "TH-013",
+      "bowtie_id": "BT-02",
+      "top_event_id": "TE-02",
+      "threat_name": "Pressure control loop failure",
+      "contribution": "High",
+      "human_error": "No"
+    },
+    {
+      "threat_id": "TH-014",
+      "bowtie_id": "BT-02",
+      "top_event_id": "TE-02",
+      "threat_name": "Thermal expansion in isolated section",
+      "contribution": "Low",
+      "human_error": "No"
+    },
+    {
+      "threat_id": "TH-015",
+      "bowtie_id": "BT-02",
+      "top_event_id": "TE-02",
+      "threat_name": "Operator error during start-up",
+      "contribution": "Medium",
+      "human_error": "Yes"
+    },
+    {
+      "threat_id": "TH-016",
+      "bowtie_id": "BT-03",
+      "top_event_id": "TE-03",
+      "threat_name": "Tank wall corrosion",
+      "contribution": "High",
+      "human_error": "No"
+    },
+    {
+      "threat_id": "TH-017",
+      "bowtie_id": "BT-03",
+      "top_event_id": "TE-03",
+      "threat_name": "Hose connection error during unloading",
+      "contribution": "Medium",
+      "human_error": "Yes"
+    },
+    {
+      "threat_id": "TH-018",
+      "bowtie_id": "BT-03",
+      "top_event_id": "TE-03",
+      "threat_name": "Valve packing leak",
+      "contribution": "Medium",
+      "human_error": "No"
+    },
+    {
+      "threat_id": "TH-019",
+      "bowtie_id": "BT-03",
+      "top_event_id": "TE-03",
+      "threat_name": "Tanker collision at unloading bay",
+      "contribution": "Low",
+      "human_error": "No"
+    },
+    {
+      "threat_id": "TH-020",
+      "bowtie_id": "BT-04",
+      "top_event_id": "TE-04",
+      "threat_name": "Mechanical seal wear",
+      "contribution": "High",
+      "human_error": "No"
+    },
+    {
+      "threat_id": "TH-021",
+      "bowtie_id": "BT-04",
+      "top_event_id": "TE-04",
+      "threat_name": "Bearing failure",
+      "contribution": "Medium",
+      "human_error": "No"
+    },
+    {
+      "threat_id": "TH-022",
+      "bowtie_id": "BT-04",
+      "top_event_id": "TE-04",
+      "threat_name": "Process upset causing vibration",
+      "contribution": "Low",
+      "human_error": "No"
+    },
+    {
+      "threat_id": "TH-023",
+      "bowtie_id": "BT-05",
+      "top_event_id": "TE-05",
+      "threat_name": "Flammable atmosphere at hot work location",
+      "contribution": "High",
+      "human_error": "No"
+    },
+    {
+      "threat_id": "TH-024",
+      "bowtie_id": "BT-05",
+      "top_event_id": "TE-05",
+      "threat_name": "Ignition source from welding",
+      "contribution": "Medium",
+      "human_error": "No"
+    },
+    {
+      "threat_id": "TH-025",
+      "bowtie_id": "BT-06",
+      "top_event_id": "TE-06",
+      "threat_name": "Dust accumulation on surfaces",
+      "contribution": "High",
+      "human_error": "No"
+    }
+  ],
+  "consequences": [
+    {
+      "consequence_id": "CQ-001",
+      "bowtie_id": "BT-01",
+      "top_event_id": "TE-01",
+      "consequence_name": "Pool fire",
+      "severity": "Major Concern",
+      "inherent_risk": "High",
+      "residual_risk": "Medium"
+    },
+    {
+      "consequence_id": "CQ-002",
+      "bowtie_id": "BT-01",
+      "top_event_id": "TE-01",
+      "consequence_name": "Vapour cloud explosion",
+      "severity": "Major Concern",
+      "inherent_risk": "High",
+      "residual_risk": "High"
+    },
+    {
+      "consequence_id": "CQ-003",
+      "bowtie_id": "BT-01",
+      "top_event_id": "TE-01",
+      "consequence_name": "Soil and groundwater contamination",
+      "severity": "Significant",
+      "inherent_risk": "Medium",
+      "residual_risk": null
+    },
+    {
+      "consequence_id": "CQ-004",
+      "bowtie_id": "BT-02",
+      "top_event_id": "TE-02",
+      "consequence_name": "Pipeline rupture and jet fire",
+      "severity": "Major Concern",
+      "inherent_risk": "High",
+      "residual_risk": "Medium"
+    },
+    {
+      "consequence_id": "CQ-005",
+      "bowtie_id": "BT-02",
+      "top_event_id": "TE-02",
+      "consequence_name": "Gas release to atmosphere",
+      "severity": "Significant",
+      "inherent_risk": "Medium",
+      "residual_risk": null
+    },
+    {
+      "consequence_id": "CQ-006",
+      "bowtie_id": "BT-03",
+      "top_event_id": "TE-03",
+      "consequence_name": "Toxic vapour exposure to workers",
+      "severity": "Major Concern",
+      "inherent_risk": "High",
+      "residual_risk": "Medium"
+    },
+    {
+      "consequence_id": "CQ-007",
+      "bowtie_id": "BT-03",
+      "top_event_id": "TE-03",
+      "consequence_name": "Contamination of drainage system",
+      "severity": null,
+      "inherent_risk": "Medium",
+      "residual_risk": "Low"
+    },
+    {
+      "consequence_id": "CQ-008",
+      "bowtie_id": "BT-03",
+      "top_event_id": "TE-03",
+      "consequence_name": "Off-site community exposure",
+      "severity": "Major Concern",
+      "inherent_risk": "High",
+      "residual_risk": null
+    },
+    {
+      "consequence_id": "CQ-009",
+      "bowtie_id": "BT-04",
+      "top_event_id": "TE-04",
+      "consequence_name": "Gas release and fire in compressor house",
+      "severity": "Major Concern",
+      "inherent_risk": "High",
+      "residual_risk": "Medium"
+    },
+    {
+      "consequence_id": "CQ-010",
+      "bowtie_id": "BT-04",
+      "top_event_id": "TE-04",
+      "consequence_name": "Production loss",
+      "severity": null,
+      "inherent_risk": "Low",
+      "residual_risk": "Low"
+    },
+    {
+      "consequence_id": "CQ-011",
+      "bowtie_id": "BT-05",
+      "top_event_id": "TE-05",
+      "consequence_name": "Flash fire at work location",
+      "severity": "Major Concern",
+      "inherent_risk": "High",
+      "residual_risk": "Medium"
+    },
+    {
+      "consequence_id": "CQ-012",
+      "bowtie_id": "BT-05",
+      "top_event_id": "TE-05",
+      "consequence_name": "Burn injuries to workers",
+      "severity": "Significant",
+      "inherent_risk": "Medium",
+      "residual_risk": "Low"
+    }
+  ],
+  "pathways": [
+    {
+      "pathway_id": "PW-TH-001",
+      "bowtie_id": "BT-01",
+      "top_event_id": "TE-01",
+      "side": "Threat",
+      "element_id": "TH-001"
+    },
+    {
+      "pathway_id": "PW-TH-002",
+      "bowtie_id": "BT-01",
+      "top_event_id": "TE-01",
+      "side": "Threat",
+      "element_id": "TH-002"
+    },
+    {
+      "pathway_id": "PW-TH-003",
+      "bowtie_id": "BT-01",
+      "top_event_id": "TE-01",
+      "side": "Threat",
+      "element_id": "TH-003"
+    },
+    {
+      "pathway_id": "PW-TH-004",
+      "bowtie_id": "BT-01",
+      "top_event_id": "TE-01",
+      "side": "Threat",
+      "element_id": "TH-004"
+    },
+    {
+      "pathway_id": "PW-TH-005",
+      "bowtie_id": "BT-01",
+      "top_event_id": "TE-01",
+      "side": "Threat",
+      "element_id": "TH-005"
+    },
+    {
+      "pathway_id": "PW-TH-006",
+      "bowtie_id": "BT-01",
+      "top_event_id": "TE-01",
+      "side": "Threat",
+      "element_id": "TH-006"
+    },
+    {
+      "pathway_id": "PW-TH-007",
+      "bowtie_id": "BT-01",
+      "top_event_id": "TE-01",
+      "side": "Threat",
+      "element_id": "TH-007"
+    },
+    {
+      "pathway_id": "PW-TH-008",
+      "bowtie_id": "BT-01",
+      "top_event_id": "TE-01",
+      "side": "Threat",
+      "element_id": "TH-008"
+    },
+    {
+      "pathway_id": "PW-TH-009",
+      "bowtie_id": "BT-01",
+      "top_event_id": "TE-01",
+      "side": "Threat",
+      "element_id": "TH-009"
+    },
+    {
+      "pathway_id": "PW-TH-010",
+      "bowtie_id": "BT-01",
+      "top_event_id": "TE-01",
+      "side": "Threat",
+      "element_id": "TH-010"
+    },
+    {
+      "pathway_id": "PW-TH-011",
+      "bowtie_id": "BT-01",
+      "top_event_id": "TE-01",
+      "side": "Threat",
+      "element_id": "TH-011"
+    },
+    {
+      "pathway_id": "PW-TH-012",
+      "bowtie_id": "BT-02",
+      "top_event_id": "TE-02",
+      "side": "Threat",
+      "element_id": "TH-012"
+    },
+    {
+      "pathway_id": "PW-TH-013",
+      "bowtie_id": "BT-02",
+      "top_event_id": "TE-02",
+      "side": "Threat",
+      "element_id": "TH-013"
+    },
+    {
+      "pathway_id": "PW-TH-014",
+      "bowtie_id": "BT-02",
+      "top_event_id": "TE-02",
+      "side": "Threat",
+      "element_id": "TH-014"
+    },
+    {
+      "pathway_id": "PW-TH-015",
+      "bowtie_id": "BT-02",
+      "top_event_id": "TE-02",
+      "side": "Threat",
+      "element_id": "TH-015"
+    },
+    {
+      "pathway_id": "PW-TH-016",
+      "bowtie_id": "BT-03",
+      "top_event_id": "TE-03",
+      "side": "Threat",
+      "element_id": "TH-016"
+    },
+    {
+      "pathway_id": "PW-TH-017",
+      "bowtie_id": "BT-03",
+      "top_event_id": "TE-03",
+      "side": "Threat",
+      "element_id": "TH-017"
+    },
+    {
+      "pathway_id": "PW-TH-018",
+      "bowtie_id": "BT-03",
+      "top_event_id": "TE-03",
+      "side": "Threat",
+      "element_id": "TH-018"
+    },
+    {
+      "pathway_id": "PW-TH-019",
+      "bowtie_id": "BT-03",
+      "top_event_id": "TE-03",
+      "side": "Threat",
+      "element_id": "TH-019"
+    },
+    {
+      "pathway_id": "PW-TH-020",
+      "bowtie_id": "BT-04",
+      "top_event_id": "TE-04",
+      "side": "Threat",
+      "element_id": "TH-020"
+    },
+    {
+      "pathway_id": "PW-TH-021",
+      "bowtie_id": "BT-04",
+      "top_event_id": "TE-04",
+      "side": "Threat",
+      "element_id": "TH-021"
+    },
+    {
+      "pathway_id": "PW-TH-022",
+      "bowtie_id": "BT-04",
+      "top_event_id": "TE-04",
+      "side": "Threat",
+      "element_id": "TH-022"
+    },
+    {
+      "pathway_id": "PW-TH-023",
+      "bowtie_id": "BT-05",
+      "top_event_id": "TE-05",
+      "side": "Threat",
+      "element_id": "TH-023"
+    },
+    {
+      "pathway_id": "PW-TH-024",
+      "bowtie_id": "BT-05",
+      "top_event_id": "TE-05",
+      "side": "Threat",
+      "element_id": "TH-024"
+    },
+    {
+      "pathway_id": "PW-TH-025",
+      "bowtie_id": "BT-06",
+      "top_event_id": "TE-06",
+      "side": "Threat",
+      "element_id": "TH-025"
+    },
+    {
+      "pathway_id": "PW-CQ-001",
+      "bowtie_id": "BT-01",
+      "top_event_id": "TE-01",
+      "side": "Consequence",
+      "element_id": "CQ-001"
+    },
+    {
+      "pathway_id": "PW-CQ-002",
+      "bowtie_id": "BT-01",
+      "top_event_id": "TE-01",
+      "side": "Consequence",
+      "element_id": "CQ-002"
+    },
+    {
+      "pathway_id": "PW-CQ-003",
+      "bowtie_id": "BT-01",
+      "top_event_id": "TE-01",
+      "side": "Consequence",
+      "element_id": "CQ-003"
+    },
+    {
+      "pathway_id": "PW-CQ-004",
+      "bowtie_id": "BT-02",
+      "top_event_id": "TE-02",
+      "side": "Consequence",
+      "element_id": "CQ-004"
+    },
+    {
+      "pathway_id": "PW-CQ-005",
+      "bowtie_id": "BT-02",
+      "top_event_id": "TE-02",
+      "side": "Consequence",
+      "element_id": "CQ-005"
+    },
+    {
+      "pathway_id": "PW-CQ-006",
+      "bowtie_id": "BT-03",
+      "top_event_id": "TE-03",
+      "side": "Consequence",
+      "element_id": "CQ-006"
+    },
+    {
+      "pathway_id": "PW-CQ-007",
+      "bowtie_id": "BT-03",
+      "top_event_id": "TE-03",
+      "side": "Consequence",
+      "element_id": "CQ-007"
+    },
+    {
+      "pathway_id": "PW-CQ-008",
+      "bowtie_id": "BT-03",
+      "top_event_id": "TE-03",
+      "side": "Consequence",
+      "element_id": "CQ-008"
+    },
+    {
+      "pathway_id": "PW-CQ-009",
+      "bowtie_id": "BT-04",
+      "top_event_id": "TE-04",
+      "side": "Consequence",
+      "element_id": "CQ-009"
+    },
+    {
+      "pathway_id": "PW-CQ-010",
+      "bowtie_id": "BT-04",
+      "top_event_id": "TE-04",
+      "side": "Consequence",
+      "element_id": "CQ-010"
+    },
+    {
+      "pathway_id": "PW-CQ-011",
+      "bowtie_id": "BT-05",
+      "top_event_id": "TE-05",
+      "side": "Consequence",
+      "element_id": "CQ-011"
+    },
+    {
+      "pathway_id": "PW-CQ-012",
+      "bowtie_id": "BT-05",
+      "top_event_id": "TE-05",
+      "side": "Consequence",
+      "element_id": "CQ-012"
+    }
+  ],
+  "barriers": [
+    {
+      "barrier_id": "B-001",
+      "bowtie_id": "BT-01",
+      "pathway_id": "PW-TH-001",
+      "barrier_name": "Protective coating system",
+      "barrier_type": "Passive Hardware",
+      "function": "Prevention",
+      "condition": "Effective",
+      "critical": "No",
+      "owner": "Inspection Lead",
+      "common_dependency": null,
+      "auditable": "Yes",
+      "detect": null,
+      "decide": null,
+      "act": null
+    },
+    {
+      "barrier_id": "B-002",
+      "bowtie_id": "BT-01",
+      "pathway_id": "PW-TH-001",
+      "barrier_name": "External inspection and thickness monitoring",
+      "barrier_type": "Active Human",
+      "function": "Prevention",
+      "condition": "Partially Effective",
+      "critical": "No",
+      "owner": "Operations Manager",
+      "common_dependency": null,
+      "auditable": "No",
+      "detect": "Yes",
+      "decide": "Yes",
+      "act": "Yes"
+    },
+    {
+      "barrier_id": "B-003",
+      "bowtie_id": "BT-01",
+      "pathway_id": "PW-TH-002",
+      "barrier_name": "Internal tank lining",
+      "barrier_type": "Passive Hardware",
+      "function": "Prevention",
+      "condition": "Effective",
+      "critical": "No",
+      "owner": "Inspection Lead",
+      "common_dependency": null,
+      "auditable": "Yes",
+      "detect": null,
+      "decide": null,
+      "act": null
+    },
+    {
+      "barrier_id": "B-004",
+      "bowtie_id": "BT-01",
+      "pathway_id": "PW-TH-002",
+      "barrier_name": "In-service floor scanning inspection",
+      "barrier_type": "Active Human",
+      "function": "Prevention",
+      "condition": "Unknown",
+      "critical": "Yes",
+      "owner": "Operations Manager",
+      "common_dependency": null,
+      "auditable": "No",
+      "detect": "Yes",
+      "decide": "Yes",
+      "act": "Yes"
+    },
+    {
+      "barrier_id": "B-005",
+      "bowtie_id": "BT-01",
+      "pathway_id": "PW-TH-003",
+      "barrier_name": "High-high level trip closing inlet valve",
+      "barrier_type": "Active Hardware",
+      "function": "Prevention",
+      "condition": "Effective",
+      "critical": "Yes",
+      "owner": "Maintenance Manager",
+      "common_dependency": "Level transmitter LT-101",
+      "auditable": "Yes",
+      "detect": "Yes",
+      "decide": "Yes",
+      "act": "Yes"
+    },
+    {
+      "barrier_id": "B-006",
+      "bowtie_id": "BT-01",
+      "pathway_id": "PW-TH-003",
+      "barrier_name": "Independent high level alarm",
+      "barrier_type": "Active Hardware",
+      "function": "Control",
+      "condition": "Partially Effective",
+      "critical": "No",
+      "owner": "Maintenance Manager",
+      "common_dependency": "Level transmitter LT-101",
+      "auditable": "Yes",
+      "detect": "Yes",
+      "decide": "Yes",
+      "act": "No"
+    },
+    {
+      "barrier_id": "B-007",
+      "bowtie_id": "BT-01",
+      "pathway_id": "PW-TH-003",
+      "barrier_name": "Operator monitoring of transfer",
+      "barrier_type": "Active Human",
+      "function": "Control",
+      "condition": "Effective",
+      "critical": "No",
+      "owner": "Operations Manager",
+      "common_dependency": null,
+      "auditable": "Yes",
+      "detect": "Yes",
+      "decide": "Yes",
+      "act": "Yes"
+    },
+    {
+      "barrier_id": "B-008",
+      "bowtie_id": "BT-01",
+      "pathway_id": "PW-TH-004",
+      "barrier_name": "Seal inspection and replacement schedule",
+      "barrier_type": "Active Human",
+      "function": "Prevention",
+      "condition": "Effective",
+      "critical": "No",
+      "owner": "Operations Manager",
+      "common_dependency": null,
+      "auditable": "Yes",
+      "detect": "Yes",
+      "decide": "Yes",
+      "act": "Yes"
+    },
+    {
+      "barrier_id": "B-009",
+      "bowtie_id": "BT-01",
+      "pathway_id": "PW-TH-005",
+      "barrier_name": "Settlement survey programme",
+      "barrier_type": "Active Human",
+      "function": "Prevention",
+      "condition": "Effective",
+      "critical": "No",
+      "owner": "Operations Manager",
+      "common_dependency": null,
+      "auditable": "Yes",
+      "detect": "Yes",
+      "decide": "Yes",
+      "act": "Yes"
+    },
+    {
+      "barrier_id": "B-010",
+      "bowtie_id": "BT-01",
+      "pathway_id": "PW-TH-006",
+      "barrier_name": "Gasket specification and torque procedure",
+      "barrier_type": "Active Hardware + Human",
+      "function": "Prevention",
+      "condition": "Partially Effective",
+      "critical": "No",
+      "owner": null,
+      "common_dependency": null,
+      "auditable": "No",
+      "detect": "Yes",
+      "decide": "Yes",
+      "act": "Yes"
+    },
+    {
+      "barrier_id": "B-011",
+      "bowtie_id": "BT-01",
+      "pathway_id": "PW-TH-007",
+      "barrier_name": "Blind flange on drain valve outlet",
+      "barrier_type": "Passive Hardware",
+      "function": "Elimination",
+      "condition": "Effective",
+      "critical": "Yes",
+      "owner": "Inspection Lead",
+      "common_dependency": null,
+      "auditable": "Yes",
+      "detect": null,
+      "decide": null,
+      "act": null
+    },
+    {
+      "barrier_id": "B-012",
+      "bowtie_id": "BT-01",
+      "pathway_id": "PW-TH-008",
+      "barrier_name": "Crash barriers around pipework",
+      "barrier_type": "Passive Hardware",
+      "function": "Prevention",
+      "condition": "Effective",
+      "critical": "No",
+      "owner": "Inspection Lead",
+      "common_dependency": null,
+      "auditable": "Yes",
+      "detect": null,
+      "decide": null,
+      "act": null
+    },
+    {
+      "barrier_id": "B-013",
+      "bowtie_id": "BT-01",
+      "pathway_id": "PW-TH-010",
+      "barrier_name": "Lightning protection and earthing system",
+      "barrier_type": "Continuous Hardware",
+      "function": "Prevention",
+      "condition": "Unknown",
+      "critical": "No",
+      "owner": "Process Engineer",
+      "common_dependency": null,
+      "auditable": "Yes",
+      "detect": "Yes",
+      "decide": "Yes",
+      "act": "Yes"
+    },
+    {
+      "barrier_id": "B-014",
+      "bowtie_id": "BT-01",
+      "pathway_id": "PW-TH-011",
+      "barrier_name": "Permit to work and isolation procedure",
+      "barrier_type": "Active Human",
+      "function": "Prevention",
+      "condition": "Partially Effective",
+      "critical": "No",
+      "owner": "Operations Manager",
+      "common_dependency": null,
+      "auditable": "No",
+      "detect": "Yes",
+      "decide": "Yes",
+      "act": "Yes"
+    },
+    {
+      "barrier_id": "B-015",
+      "bowtie_id": "BT-01",
+      "pathway_id": "PW-TH-011",
+      "barrier_name": "Isolation verification by second person",
+      "barrier_type": "Active Hardware + Human",
+      "function": "Prevention",
+      "condition": "Effective",
+      "critical": "No",
+      "owner": "HSE Manager",
+      "common_dependency": null,
+      "auditable": "Yes",
+      "detect": "Yes",
+      "decide": "Yes",
+      "act": "Yes"
+    },
+    {
+      "barrier_id": "B-016",
+      "bowtie_id": "BT-02",
+      "pathway_id": "PW-TH-012",
+      "barrier_name": "Pressure safety valve on pipeline",
+      "barrier_type": "Active Hardware",
+      "function": "Control",
+      "condition": "Effective",
+      "critical": "No",
+      "owner": "Maintenance Manager",
+      "common_dependency": null,
+      "auditable": "Yes",
+      "detect": "Yes",
+      "decide": "Yes",
+      "act": "Yes"
+    },
+    {
+      "barrier_id": "B-017",
+      "bowtie_id": "BT-02",
+      "pathway_id": "PW-TH-012",
+      "barrier_name": "High pressure trip shutting inlet",
+      "barrier_type": "Active Hardware",
+      "function": "Prevention",
+      "condition": "Not Effective",
+      "critical": "Yes",
+      "owner": "Maintenance Manager",
+      "common_dependency": null,
+      "auditable": "Yes",
+      "detect": "Yes",
+      "decide": "Yes",
+      "act": "Yes"
+    },
+    {
+      "barrier_id": "B-018",
+      "bowtie_id": "BT-02",
+      "pathway_id": "PW-TH-013",
+      "barrier_name": "Independent pressure transmitter and trip",
+      "barrier_type": "Active Hardware",
+      "function": "Prevention",
+      "condition": "Effective",
+      "critical": "Yes",
+      "owner": "Maintenance Manager",
+      "common_dependency": null,
+      "auditable": "Yes",
+      "detect": "Yes",
+      "decide": "Yes",
+      "act": "Yes"
+    },
+    {
+      "barrier_id": "B-019",
+      "bowtie_id": "BT-02",
+      "pathway_id": "PW-TH-013",
+      "barrier_name": "Pressure alarm with operator response",
+      "barrier_type": "Active Hardware + Human",
+      "function": "Control",
+      "condition": "Partially Effective",
+      "critical": "No",
+      "owner": "HSE Manager",
+      "common_dependency": null,
+      "auditable": "Yes",
+      "detect": "Yes",
+      "decide": "No",
+      "act": "Yes"
+    },
+    {
+      "barrier_id": "B-020",
+      "bowtie_id": "BT-02",
+      "pathway_id": "PW-TH-013",
+      "barrier_name": "Pipeline design pressure margin",
+      "barrier_type": "Passive Hardware",
+      "function": "Prevention",
+      "condition": "Effective",
+      "critical": "No",
+      "owner": "Inspection Lead",
+      "common_dependency": null,
+      "auditable": "Yes",
+      "detect": null,
+      "decide": null,
+      "act": null
+    },
+    {
+      "barrier_id": "B-021",
+      "bowtie_id": "BT-02",
+      "pathway_id": "PW-TH-014",
+      "barrier_name": "Thermal relief valve",
+      "barrier_type": "Active Hardware",
+      "function": "Control",
+      "condition": "Effective",
+      "critical": "No",
+      "owner": "Maintenance Manager",
+      "common_dependency": null,
+      "auditable": "Yes",
+      "detect": "Yes",
+      "decide": "Yes",
+      "act": "Yes"
+    },
+    {
+      "barrier_id": "B-022",
+      "bowtie_id": "BT-02",
+      "pathway_id": "PW-TH-015",
+      "barrier_name": "Start-up procedure with checklist",
+      "barrier_type": "Active Human",
+      "function": "Prevention",
+      "condition": "Partially Effective",
+      "critical": "No",
+      "owner": "Operations Manager",
+      "common_dependency": null,
+      "auditable": "No",
+      "detect": "No",
+      "decide": "Yes",
+      "act": "Yes"
+    },
+    {
+      "barrier_id": "B-023",
+      "bowtie_id": "BT-02",
+      "pathway_id": "PW-TH-015",
+      "barrier_name": "Interlock preventing start-up with closed outlet",
+      "barrier_type": "Active Hardware",
+      "function": "Prevention",
+      "condition": "Effective",
+      "critical": "No",
+      "owner": "Maintenance Manager",
+      "common_dependency": null,
+      "auditable": "Yes",
+      "detect": "Yes",
+      "decide": "Yes",
+      "act": "Yes"
+    },
+    {
+      "barrier_id": "B-024",
+      "bowtie_id": "BT-03",
+      "pathway_id": "PW-TH-016",
+      "barrier_name": "Corrosion-resistant tank lining",
+      "barrier_type": "Passive Hardware",
+      "function": "Prevention",
+      "condition": "Effective",
+      "critical": "Yes",
+      "owner": "Inspection Lead",
+      "common_dependency": null,
+      "auditable": "Yes",
+      "detect": null,
+      "decide": null,
+      "act": null
+    },
+    {
+      "barrier_id": "B-025",
+      "bowtie_id": "BT-03",
+      "pathway_id": "PW-TH-016",
+      "barrier_name": "Periodic wall thickness testing",
+      "barrier_type": "Active Human",
+      "function": "Prevention",
+      "condition": "Effective",
+      "critical": "No",
+      "owner": "Operations Manager",
+      "common_dependency": null,
+      "auditable": "Yes",
+      "detect": "Yes",
+      "decide": "Yes",
+      "act": "Yes"
+    },
+    {
+      "barrier_id": "B-026",
+      "bowtie_id": "BT-03",
+      "pathway_id": "PW-TH-017",
+      "barrier_name": "Dedicated couplings preventing wrong connection",
+      "barrier_type": "Passive Hardware",
+      "function": "Elimination",
+      "condition": "Effective",
+      "critical": "No",
+      "owner": "Inspection Lead",
+      "common_dependency": null,
+      "auditable": "Yes",
+      "detect": null,
+      "decide": null,
+      "act": null
+    },
+    {
+      "barrier_id": "B-027",
+      "bowtie_id": "BT-03",
+      "pathway_id": "PW-TH-017",
+      "barrier_name": "Unloading procedure with supervisor check",
+      "barrier_type": "Active Human",
+      "function": "Prevention",
+      "condition": "Unknown",
+      "critical": "No",
+      "owner": "Operations Manager",
+      "common_dependency": null,
+      "auditable": "No",
+      "detect": "Yes",
+      "decide": "Yes",
+      "act": "Yes"
+    },
+    {
+      "barrier_id": "B-028",
+      "bowtie_id": "BT-03",
+      "pathway_id": "PW-TH-018",
+      "barrier_name": "Valve packing replacement programme",
+      "barrier_type": "Active Human",
+      "function": "Prevention",
+      "condition": "Effective",
+      "critical": "No",
+      "owner": "Operations Manager",
+      "common_dependency": null,
+      "auditable": "Yes",
+      "detect": "Yes",
+      "decide": "Yes",
+      "act": "Yes"
+    },
+    {
+      "barrier_id": "B-029",
+      "bowtie_id": "BT-03",
+      "pathway_id": "PW-TH-019",
+      "barrier_name": "Bollards at unloading bay",
+      "barrier_type": "Passive Hardware",
+      "function": "Prevention",
+      "condition": "Effective",
+      "critical": "No",
+      "owner": "Inspection Lead",
+      "common_dependency": null,
+      "auditable": "Yes",
+      "detect": null,
+      "decide": null,
+      "act": null
+    },
+    {
+      "barrier_id": "B-030",
+      "bowtie_id": "BT-04",
+      "pathway_id": "PW-TH-020",
+      "barrier_name": "Seal flush system",
+      "barrier_type": "Continuous Hardware",
+      "function": "Prevention",
+      "condition": "Effective",
+      "critical": "No",
+      "owner": "Process Engineer",
+      "common_dependency": "Instrument air supply",
+      "auditable": "Yes",
+      "detect": "Yes",
+      "decide": "Yes",
+      "act": "Yes"
+    },
+    {
+      "barrier_id": "B-031",
+      "bowtie_id": "BT-04",
+      "pathway_id": "PW-TH-020",
+      "barrier_name": "Seal leak detection and alarm",
+      "barrier_type": "Active Hardware",
+      "function": "Control",
+      "condition": "Partially Effective",
+      "critical": "Yes",
+      "owner": "Maintenance Manager",
+      "common_dependency": "Instrument air supply",
+      "auditable": "Yes",
+      "detect": "Yes",
+      "decide": "Yes",
+      "act": "Yes"
+    },
+    {
+      "barrier_id": "B-032",
+      "bowtie_id": "BT-04",
+      "pathway_id": "PW-TH-021",
+      "barrier_name": "Vibration monitoring with trip",
+      "barrier_type": "Active Hardware",
+      "function": "Prevention",
+      "condition": "Effective",
+      "critical": "Yes",
+      "owner": "Maintenance Manager",
+      "common_dependency": null,
+      "auditable": "Yes",
+      "detect": "Yes",
+      "decide": "Yes",
+      "act": "Yes"
+    },
+    {
+      "barrier_id": "B-033",
+      "bowtie_id": "BT-04",
+      "pathway_id": "PW-TH-021",
+      "barrier_name": "Lubrication schedule",
+      "barrier_type": "Active Human",
+      "function": "Prevention",
+      "condition": "Not Effective",
+      "critical": "No",
+      "owner": null,
+      "common_dependency": null,
+      "auditable": "No",
+      "detect": "Yes",
+      "decide": "Yes",
+      "act": "Yes"
+    },
+    {
+      "barrier_id": "B-034",
+      "bowtie_id": "BT-04",
+      "pathway_id": "PW-TH-022",
+      "barrier_name": "Operating envelope procedure",
+      "barrier_type": "Active Human",
+      "function": "Prevention",
+      "condition": "Unknown",
+      "critical": "No",
+      "owner": "Operations Manager",
+      "common_dependency": null,
+      "auditable": "No",
+      "detect": "Yes",
+      "decide": "Yes",
+      "act": "Yes"
+    },
+    {
+      "barrier_id": "B-035",
+      "bowtie_id": "BT-05",
+      "pathway_id": "PW-TH-023",
+      "barrier_name": "Gas testing before and during hot work",
+      "barrier_type": "Active Hardware + Human",
+      "function": "Prevention",
+      "condition": "Effective",
+      "critical": "Yes",
+      "owner": "HSE Manager",
+      "common_dependency": null,
+      "auditable": "Yes",
+      "detect": "Yes",
+      "decide": "Yes",
+      "act": "Yes"
+    },
+    {
+      "barrier_id": "B-036",
+      "bowtie_id": "BT-05",
+      "pathway_id": "PW-TH-023",
+      "barrier_name": "Fixed gas detection with area alarm",
+      "barrier_type": "Active Hardware",
+      "function": "Control",
+      "condition": "Effective",
+      "critical": "No",
+      "owner": "Maintenance Manager",
+      "common_dependency": null,
+      "auditable": "Yes",
+      "detect": "Yes",
+      "decide": "Yes",
+      "act": "Yes"
+    },
+    {
+      "barrier_id": "B-037",
+      "bowtie_id": "BT-05",
+      "pathway_id": "PW-TH-024",
+      "barrier_name": "Spark containment screens",
+      "barrier_type": "Passive Hardware",
+      "function": "Prevention",
+      "condition": "Effective",
+      "critical": "No",
+      "owner": "Inspection Lead",
+      "common_dependency": null,
+      "auditable": "Yes",
+      "detect": null,
+      "decide": null,
+      "act": null
+    },
+    {
+      "barrier_id": "B-038",
+      "bowtie_id": "BT-05",
+      "pathway_id": "PW-TH-024",
+      "barrier_name": "Hot work permit conditions",
+      "barrier_type": "Active Human",
+      "function": "Prevention",
+      "condition": "Partially Effective",
+      "critical": "No",
+      "owner": "Operations Manager",
+      "common_dependency": null,
+      "auditable": "No",
+      "detect": "Yes",
+      "decide": "Yes",
+      "act": "Yes"
+    },
+    {
+      "barrier_id": "B-039",
+      "bowtie_id": "BT-06",
+      "pathway_id": "PW-TH-025",
+      "barrier_name": "Housekeeping and cleaning schedule",
+      "barrier_type": "Active Human",
+      "function": "Prevention",
+      "condition": "Not Effective",
+      "critical": "Yes",
+      "owner": "Operations Manager",
+      "common_dependency": null,
+      "auditable": "No",
+      "detect": "Yes",
+      "decide": "Yes",
+      "act": "Yes"
+    },
+    {
+      "barrier_id": "B-040",
+      "bowtie_id": "BT-06",
+      "pathway_id": "PW-TH-025",
+      "barrier_name": "Dust extraction system",
+      "barrier_type": "Continuous Hardware",
+      "function": "Prevention",
+      "condition": "Partially Effective",
+      "critical": "No",
+      "owner": "Process Engineer",
+      "common_dependency": null,
+      "auditable": "Yes",
+      "detect": "Yes",
+      "decide": "Yes",
+      "act": "Yes"
+    },
+    {
+      "barrier_id": "B-041",
+      "bowtie_id": "BT-01",
+      "pathway_id": "PW-CQ-001",
+      "barrier_name": "Tank bund (secondary containment)",
+      "barrier_type": "Passive Hardware",
+      "function": "Mitigation",
+      "condition": "Effective",
+      "critical": "Yes",
+      "owner": "Inspection Lead",
+      "common_dependency": null,
+      "auditable": "Yes",
+      "detect": null,
+      "decide": null,
+      "act": null
+    },
+    {
+      "barrier_id": "B-042",
+      "bowtie_id": "BT-01",
+      "pathway_id": "PW-CQ-001",
+      "barrier_name": "Fixed foam fire suppression",
+      "barrier_type": "Active Hardware",
+      "function": "Mitigation",
+      "condition": "Partially Effective",
+      "critical": "Yes",
+      "owner": "Maintenance Manager",
+      "common_dependency": null,
+      "auditable": "Yes",
+      "detect": "Yes",
+      "decide": "Yes",
+      "act": "Yes"
+    },
+    {
+      "barrier_id": "B-043",
+      "bowtie_id": "BT-01",
+      "pathway_id": "PW-CQ-001",
+      "barrier_name": "Fire brigade response",
+      "barrier_type": "Active Human",
+      "function": "Mitigation",
+      "condition": "Effective",
+      "critical": "No",
+      "owner": "Operations Manager",
+      "common_dependency": null,
+      "auditable": "Yes",
+      "detect": "Yes",
+      "decide": "Yes",
+      "act": "Yes"
+    },
+    {
+      "barrier_id": "B-044",
+      "bowtie_id": "BT-01",
+      "pathway_id": "PW-CQ-002",
+      "barrier_name": "Gas detection and tank isolation",
+      "barrier_type": "Active Hardware",
+      "function": "Control",
+      "condition": "Effective",
+      "critical": "No",
+      "owner": "Maintenance Manager",
+      "common_dependency": null,
+      "auditable": "Yes",
+      "detect": "Yes",
+      "decide": "Yes",
+      "act": "Yes"
+    },
+    {
+      "barrier_id": "B-045",
+      "bowtie_id": "BT-01",
+      "pathway_id": "PW-CQ-002",
+      "barrier_name": "Ignition source control in tank farm",
+      "barrier_type": "Active Hardware + Human",
+      "function": "Control",
+      "condition": "Unknown",
+      "critical": "No",
+      "owner": "HSE Manager",
+      "common_dependency": null,
+      "auditable": "No",
+      "detect": "Yes",
+      "decide": "Yes",
+      "act": "Yes"
+    },
+    {
+      "barrier_id": "B-046",
+      "bowtie_id": "BT-01",
+      "pathway_id": "PW-CQ-003",
+      "barrier_name": "Impermeable bund liner",
+      "barrier_type": "Passive Hardware",
+      "function": "Mitigation",
+      "condition": "Effective",
+      "critical": "No",
+      "owner": "Inspection Lead",
+      "common_dependency": null,
+      "auditable": "Yes",
+      "detect": null,
+      "decide": null,
+      "act": null
+    },
+    {
+      "barrier_id": "B-047",
+      "bowtie_id": "BT-01",
+      "pathway_id": "PW-CQ-003",
+      "barrier_name": "Oil spill response plan",
+      "barrier_type": "Active Human",
+      "function": "Mitigation",
+      "condition": "Partially Effective",
+      "critical": "No",
+      "owner": "Operations Manager",
+      "common_dependency": null,
+      "auditable": "No",
+      "detect": "Yes",
+      "decide": "Yes",
+      "act": "No"
+    },
+    {
+      "barrier_id": "B-048",
+      "bowtie_id": "BT-02",
+      "pathway_id": "PW-CQ-004",
+      "barrier_name": "Emergency shutdown valves",
+      "barrier_type": "Active Hardware",
+      "function": "Mitigation",
+      "condition": "Effective",
+      "critical": "Yes",
+      "owner": "Maintenance Manager",
+      "common_dependency": "Plant control system",
+      "auditable": "Yes",
+      "detect": "Yes",
+      "decide": "Yes",
+      "act": "Yes"
+    },
+    {
+      "barrier_id": "B-049",
+      "bowtie_id": "BT-02",
+      "pathway_id": "PW-CQ-004",
+      "barrier_name": "Fire and gas detection",
+      "barrier_type": "Active Hardware",
+      "function": "Control",
+      "condition": "Effective",
+      "critical": "No",
+      "owner": "Maintenance Manager",
+      "common_dependency": "Plant control system",
+      "auditable": "Yes",
+      "detect": "Yes",
+      "decide": "Yes",
+      "act": "Yes"
+    },
+    {
+      "barrier_id": "B-050",
+      "bowtie_id": "BT-02",
+      "pathway_id": "PW-CQ-005",
+      "barrier_name": "Remote depressurisation (blowdown)",
+      "barrier_type": "Active Hardware",
+      "function": "Mitigation",
+      "condition": "Unknown",
+      "critical": "No",
+      "owner": "Maintenance Manager",
+      "common_dependency": null,
+      "auditable": "Yes",
+      "detect": "Yes",
+      "decide": "Yes",
+      "act": "No"
+    },
+    {
+      "barrier_id": "B-051",
+      "bowtie_id": "BT-03",
+      "pathway_id": "PW-CQ-006",
+      "barrier_name": "Toxic gas detection and alarm",
+      "barrier_type": "Active Hardware",
+      "function": "Control",
+      "condition": "Effective",
+      "critical": "Yes",
+      "owner": "Maintenance Manager",
+      "common_dependency": null,
+      "auditable": "Yes",
+      "detect": "Yes",
+      "decide": "Yes",
+      "act": "Yes"
+    },
+    {
+      "barrier_id": "B-052",
+      "bowtie_id": "BT-03",
+      "pathway_id": "PW-CQ-006",
+      "barrier_name": "Personal respiratory protection",
+      "barrier_type": "Active Human",
+      "function": "Mitigation",
+      "condition": "Partially Effective",
+      "critical": "No",
+      "owner": "Operations Manager",
+      "common_dependency": null,
+      "auditable": "No",
+      "detect": "Yes",
+      "decide": "Yes",
+      "act": "Yes"
+    },
+    {
+      "barrier_id": "B-053",
+      "bowtie_id": "BT-03",
+      "pathway_id": "PW-CQ-007",
+      "barrier_name": "Drain isolation valves",
+      "barrier_type": "Active Hardware",
+      "function": "Mitigation",
+      "condition": "Effective",
+      "critical": "No",
+      "owner": "Maintenance Manager",
+      "common_dependency": null,
+      "auditable": "Yes",
+      "detect": "Yes",
+      "decide": "Yes",
+      "act": "Yes"
+    },
+    {
+      "barrier_id": "B-054",
+      "bowtie_id": "BT-03",
+      "pathway_id": "PW-CQ-008",
+      "barrier_name": "Emergency response and shelter-in-place plan",
+      "barrier_type": "Active Human",
+      "function": "Mitigation",
+      "condition": "Unknown",
+      "critical": "Yes",
+      "owner": null,
+      "common_dependency": null,
+      "auditable": "No",
+      "detect": "No",
+      "decide": "Yes",
+      "act": "Yes"
+    },
+    {
+      "barrier_id": "B-055",
+      "bowtie_id": "BT-03",
+      "pathway_id": "PW-CQ-008",
+      "barrier_name": "Community alert system",
+      "barrier_type": "Active Hardware",
+      "function": "Mitigation",
+      "condition": "Effective",
+      "critical": "No",
+      "owner": "Maintenance Manager",
+      "common_dependency": null,
+      "auditable": "Yes",
+      "detect": "Yes",
+      "decide": "Yes",
+      "act": "Yes"
+    },
+    {
+      "barrier_id": "B-056",
+      "bowtie_id": "BT-04",
+      "pathway_id": "PW-CQ-009",
+      "barrier_name": "Compressor emergency shutdown",
+      "barrier_type": "Active Hardware",
+      "function": "Mitigation",
+      "condition": "Effective",
+      "critical": "Yes",
+      "owner": "Maintenance Manager",
+      "common_dependency": "Plant control system",
+      "auditable": "Yes",
+      "detect": "Yes",
+      "decide": "Yes",
+      "act": "Yes"
+    },
+    {
+      "barrier_id": "B-057",
+      "bowtie_id": "BT-04",
+      "pathway_id": "PW-CQ-009",
+      "barrier_name": "Fire detection and deluge system",
+      "barrier_type": "Active Hardware",
+      "function": "Mitigation",
+      "condition": "Partially Effective",
+      "critical": "No",
+      "owner": "Maintenance Manager",
+      "common_dependency": "Plant control system",
+      "auditable": "Yes",
+      "detect": "Yes",
+      "decide": "No",
+      "act": "Yes"
+    },
+    {
+      "barrier_id": "B-058",
+      "bowtie_id": "BT-04",
+      "pathway_id": "PW-CQ-010",
+      "barrier_name": "Standby compressor",
+      "barrier_type": "Active Hardware",
+      "function": "Mitigation",
+      "condition": "Effective",
+      "critical": "No",
+      "owner": null,
+      "common_dependency": null,
+      "auditable": "Yes",
+      "detect": "Yes",
+      "decide": "Yes",
+      "act": "Yes"
+    },
+    {
+      "barrier_id": "B-059",
+      "bowtie_id": "BT-05",
+      "pathway_id": "PW-CQ-011",
+      "barrier_name": "Fire watch during hot work",
+      "barrier_type": "Active Human",
+      "function": "Mitigation",
+      "condition": "Effective",
+      "critical": "No",
+      "owner": "Operations Manager",
+      "common_dependency": null,
+      "auditable": "Yes",
+      "detect": "Yes",
+      "decide": "Yes",
+      "act": "Yes"
+    },
+    {
+      "barrier_id": "B-060",
+      "bowtie_id": "BT-05",
+      "pathway_id": "PW-CQ-011",
+      "barrier_name": "Fire-resistant clothing",
+      "barrier_type": "Passive Hardware",
+      "function": "Mitigation",
+      "condition": "Effective",
+      "critical": "No",
+      "owner": "Inspection Lead",
+      "common_dependency": null,
+      "auditable": "Yes",
+      "detect": null,
+      "decide": null,
+      "act": null
+    },
+    {
+      "barrier_id": "B-061",
+      "bowtie_id": "BT-05",
+      "pathway_id": "PW-CQ-012",
+      "barrier_name": "On-site first aid and medical response",
+      "barrier_type": "Active Human",
+      "function": "Mitigation",
+      "condition": "Partially Effective",
+      "critical": "No",
+      "owner": "Operations Manager",
+      "common_dependency": null,
+      "auditable": "No",
+      "detect": "Yes",
+      "decide": "Yes",
+      "act": "Yes"
+    },
+    {
+      "barrier_id": "B-062",
+      "bowtie_id": "BT-05",
+      "pathway_id": "PW-CQ-012",
+      "barrier_name": "Emergency evacuation route",
+      "barrier_type": "Passive Hardware",
+      "function": "Mitigation",
+      "condition": "Effective",
+      "critical": "No",
+      "owner": "Inspection Lead",
+      "common_dependency": null,
+      "auditable": "Yes",
+      "detect": null,
+      "decide": null,
+      "act": null
+    }
+  ],
+  "corrective_actions": [
+    {
+      "action_id": "CA-001",
+      "barrier_id": "B-004",
+      "action_description": "Schedule and complete floor scan to confirm tank floor condition",
+      "priority": "High",
+      "status": "Overdue",
+      "due_date": "2026-09-15"
+    },
+    {
+      "action_id": "CA-002",
+      "barrier_id": "B-017",
+      "action_description": "Repair and function test high pressure trip",
+      "priority": "High",
+      "status": "Overdue",
+      "due_date": "2026-10-01"
+    },
+    {
+      "action_id": "CA-003",
+      "barrier_id": "B-017",
+      "action_description": "Review high pressure trip set point",
+      "priority": "Medium",
+      "status": "Pending",
+      "due_date": "2026-11-10"
+    },
+    {
+      "action_id": "CA-004",
+      "barrier_id": "B-031",
+      "action_description": "Recalibrate seal leak detector",
+      "priority": "High",
+      "status": "Pending",
+      "due_date": "2026-11-05"
+    },
+    {
+      "action_id": "CA-005",
+      "barrier_id": "B-039",
+      "action_description": "Restart housekeeping schedule with supervisor sign-off",
+      "priority": "High",
+      "status": "Completed",
+      "due_date": "2026-09-30"
+    },
+    {
+      "action_id": "CA-006",
+      "barrier_id": "B-042",
+      "action_description": "Replace foam concentrate and test deluge",
+      "priority": "High",
+      "status": "Pending",
+      "due_date": "2026-11-20"
+    },
+    {
+      "action_id": "CA-007",
+      "barrier_id": "B-054",
+      "action_description": "Run community shelter-in-place drill",
+      "priority": "High",
+      "status": "Completed",
+      "due_date": "2026-09-20"
+    },
+    {
+      "action_id": "CA-008",
+      "barrier_id": "B-002",
+      "action_description": "Complete outstanding thickness survey",
+      "priority": "Medium",
+      "status": "Completed",
+      "due_date": "2026-10-05"
+    },
+    {
+      "action_id": "CA-009",
+      "barrier_id": "B-010",
+      "action_description": "Update gasket torque procedure",
+      "priority": "Low",
+      "status": "Pending",
+      "due_date": "2026-12-01"
+    },
+    {
+      "action_id": "CA-010",
+      "barrier_id": "B-013",
+      "action_description": "Test lightning earthing continuity",
+      "priority": "Medium",
+      "status": "Overdue",
+      "due_date": "2026-10-10"
+    },
+    {
+      "action_id": "CA-011",
+      "barrier_id": "B-014",
+      "action_description": "Refresh permit to work training",
+      "priority": "Medium",
+      "status": "Completed",
+      "due_date": "2026-09-25"
+    },
+    {
+      "action_id": "CA-012",
+      "barrier_id": "B-019",
+      "action_description": "Review alarm response time",
+      "priority": "Medium",
+      "status": "Pending",
+      "due_date": "2026-11-30"
+    },
+    {
+      "action_id": "CA-013",
+      "barrier_id": "B-022",
+      "action_description": "Revise start-up checklist",
+      "priority": "Low",
+      "status": "Completed",
+      "due_date": "2026-09-18"
+    },
+    {
+      "action_id": "CA-014",
+      "barrier_id": "B-027",
+      "action_description": "Observe unloading and verify supervisor check",
+      "priority": "Medium",
+      "status": "Pending",
+      "due_date": "2026-11-15"
+    },
+    {
+      "action_id": "CA-015",
+      "barrier_id": "B-033",
+      "action_description": "Rewrite lubrication schedule and assign owner",
+      "priority": "High",
+      "status": "Overdue",
+      "due_date": "2026-10-08"
+    },
+    {
+      "action_id": "CA-016",
+      "barrier_id": "B-034",
+      "action_description": "Define operating envelope limits",
+      "priority": "Low",
+      "status": "Pending",
+      "due_date": "2026-12-15"
+    },
+    {
+      "action_id": "CA-017",
+      "barrier_id": "B-045",
+      "action_description": "Audit ignition source controls",
+      "priority": "Medium",
+      "status": "Pending",
+      "due_date": "2026-11-25"
+    },
+    {
+      "action_id": "CA-018",
+      "barrier_id": "B-050",
+      "action_description": "Test blowdown valve",
+      "priority": "High",
+      "status": "Pending",
+      "due_date": "2026-11-12"
+    },
+    {
+      "action_id": "CA-019",
+      "barrier_id": "B-052",
+      "action_description": "Fit test respirators",
+      "priority": "Low",
+      "status": "Completed",
+      "due_date": "2026-10-02"
+    },
+    {
+      "action_id": "CA-020",
+      "barrier_id": "B-061",
+      "action_description": "Refresh first aid response drill",
+      "priority": "Low",
+      "status": "Completed",
+      "due_date": "2026-10-12"
+    }
+  ],
+  "degradation_factors": [
+    {
+      "factor_id": "DF-001",
+      "barrier_id": "B-004",
+      "factor_name": "Inspector competence gap",
+      "factor_category": "Human & Organizational"
+    },
+    {
+      "factor_id": "DF-002",
+      "barrier_id": "B-005",
+      "factor_name": "Level sensor fouling",
+      "factor_category": "Mechanical"
+    },
+    {
+      "factor_id": "DF-003",
+      "barrier_id": "B-005",
+      "factor_name": "Loss of instrument air",
+      "factor_category": "Loss of Critical Services"
+    },
+    {
+      "factor_id": "DF-004",
+      "barrier_id": "B-017",
+      "factor_name": "Trip valve sticking",
+      "factor_category": "Mechanical"
+    },
+    {
+      "factor_id": "DF-005",
+      "barrier_id": "B-017",
+      "factor_name": "Instrument calibration drift",
+      "factor_category": "Mechanical"
+    },
+    {
+      "factor_id": "DF-006",
+      "barrier_id": "B-018",
+      "factor_name": "Transmitter drift",
+      "factor_category": "Mechanical"
+    },
+    {
+      "factor_id": "DF-007",
+      "barrier_id": "B-018",
+      "factor_name": "Power supply failure",
+      "factor_category": "Loss of Critical Services"
+    },
+    {
+      "factor_id": "DF-008",
+      "barrier_id": "B-031",
+      "factor_name": "Detector contamination",
+      "factor_category": "Environmental"
+    },
+    {
+      "factor_id": "DF-009",
+      "barrier_id": "B-032",
+      "factor_name": "Sensor mounting loosening",
+      "factor_category": "Mechanical"
+    },
+    {
+      "factor_id": "DF-010",
+      "barrier_id": "B-035",
+      "factor_name": "Gas tester not calibrated",
+      "factor_category": "Human & Organizational"
+    },
+    {
+      "factor_id": "DF-011",
+      "barrier_id": "B-035",
+      "factor_name": "Time pressure on hot work crew",
+      "factor_category": "Human & Organizational"
+    },
+    {
+      "factor_id": "DF-012",
+      "barrier_id": "B-039",
+      "factor_name": "Cleaning schedule not followed",
+      "factor_category": "Human & Organizational"
+    },
+    {
+      "factor_id": "DF-013",
+      "barrier_id": "B-041",
+      "factor_name": "Bund wall cracking",
+      "factor_category": "Mechanical"
+    },
+    {
+      "factor_id": "DF-014",
+      "barrier_id": "B-041",
+      "factor_name": "Rainwater accumulation",
+      "factor_category": "Environmental"
+    },
+    {
+      "factor_id": "DF-015",
+      "barrier_id": "B-042",
+      "factor_name": "Foam concentrate degradation",
+      "factor_category": "Mechanical"
+    },
+    {
+      "factor_id": "DF-016",
+      "barrier_id": "B-042",
+      "factor_name": "Insufficient water supply",
+      "factor_category": "Loss of Critical Services"
+    },
+    {
+      "factor_id": "DF-017",
+      "barrier_id": "B-051",
+      "factor_name": "Detector cross-sensitivity",
+      "factor_category": "Mechanical"
+    },
+    {
+      "factor_id": "DF-018",
+      "barrier_id": "B-054",
+      "factor_name": "Plan not updated after site changes",
+      "factor_category": "Human & Organizational"
+    },
+    {
+      "factor_id": "DF-019",
+      "barrier_id": "B-016",
+      "factor_name": "Relief valve blocked by debris",
+      "factor_category": "Mechanical"
+    },
+    {
+      "factor_id": "DF-020",
+      "barrier_id": "B-009",
+      "factor_name": "Survey benchmark loss",
+      "factor_category": "Mechanical"
+    },
+    {
+      "factor_id": "DF-021",
+      "barrier_id": "B-013",
+      "factor_name": "Earthing corrosion",
+      "factor_category": "Environmental"
+    },
+    {
+      "factor_id": "DF-022",
+      "barrier_id": "B-027",
+      "factor_name": "Supervisor workload",
+      "factor_category": "Human & Organizational"
+    },
+    {
+      "factor_id": "DF-023",
+      "barrier_id": "B-045",
+      "factor_name": "Simultaneous operations near tank farm",
+      "factor_category": "SIMPOS"
+    },
+    {
+      "factor_id": "DF-024",
+      "barrier_id": "B-037",
+      "factor_name": "Screens damaged by use",
+      "factor_category": "Mechanical"
+    },
+    {
+      "factor_id": "DF-025",
+      "barrier_id": "B-034",
+      "factor_name": "Operator turnover",
+      "factor_category": null
+    },
+    {
+      "factor_id": "DF-026",
+      "barrier_id": "B-059",
+      "factor_name": "Fatigue of fire watch",
+      "factor_category": "Human & Organizational"
+    }
+  ],
+  "degradation_controls": [
+    {
+      "control_id": "DC-001",
+      "factor_id": "DF-001",
+      "control_name": "Inspector certification programme",
+      "control_condition": "Effective"
+    },
+    {
+      "control_id": "DC-002",
+      "factor_id": "DF-002",
+      "control_name": "Quarterly sensor cleaning",
+      "control_condition": "Effective"
+    },
+    {
+      "control_id": "DC-003",
+      "factor_id": "DF-002",
+      "control_name": "Redundant level sensor",
+      "control_condition": "Effective"
+    },
+    {
+      "control_id": "DC-004",
+      "factor_id": "DF-003",
+      "control_name": "Fail-safe valve spring return",
+      "control_condition": "Effective"
+    },
+    {
+      "control_id": "DC-005",
+      "factor_id": "DF-004",
+      "control_name": "Partial stroke testing",
+      "control_condition": "Not Effective"
+    },
+    {
+      "control_id": "DC-006",
+      "factor_id": "DF-006",
+      "control_name": "Annual calibration",
+      "control_condition": "Effective"
+    },
+    {
+      "control_id": "DC-007",
+      "factor_id": "DF-007",
+      "control_name": "UPS backup",
+      "control_condition": "Partially Effective"
+    },
+    {
+      "control_id": "DC-008",
+      "factor_id": "DF-008",
+      "control_name": "Detector cleaning routine",
+      "control_condition": "Unknown"
+    },
+    {
+      "control_id": "DC-009",
+      "factor_id": "DF-009",
+      "control_name": "Torque check at overhaul",
+      "control_condition": "Effective"
+    },
+    {
+      "control_id": "DC-010",
+      "factor_id": "DF-010",
+      "control_name": "Calibration log check",
+      "control_condition": "Effective"
+    },
+    {
+      "control_id": "DC-011",
+      "factor_id": "DF-012",
+      "control_name": "Supervisor audit",
+      "control_condition": "Not Effective"
+    },
+    {
+      "control_id": "DC-012",
+      "factor_id": "DF-013",
+      "control_name": "Bund inspection",
+      "control_condition": "Effective"
+    },
+    {
+      "control_id": "DC-013",
+      "factor_id": "DF-014",
+      "control_name": "Drainage valve checks",
+      "control_condition": "Effective"
+    },
+    {
+      "control_id": "DC-014",
+      "factor_id": "DF-015",
+      "control_name": "Foam sampling",
+      "control_condition": "Partially Effective"
+    },
+    {
+      "control_id": "DC-015",
+      "factor_id": "DF-016",
+      "control_name": "Backup fire pump",
+      "control_condition": "Effective"
+    },
+    {
+      "control_id": "DC-016",
+      "factor_id": "DF-017",
+      "control_name": "Sensor type verification",
+      "control_condition": "Effective"
+    },
+    {
+      "control_id": "DC-017",
+      "factor_id": "DF-018",
+      "control_name": "Annual plan review",
+      "control_condition": "Unknown"
+    },
+    {
+      "control_id": "DC-018",
+      "factor_id": "DF-019",
+      "control_name": "Relief valve inspection",
+      "control_condition": "Effective"
+    },
+    {
+      "control_id": "DC-019",
+      "factor_id": "DF-021",
+      "control_name": "Earth continuity test",
+      "control_condition": "Effective"
+    },
+    {
+      "control_id": "DC-020",
+      "factor_id": "DF-023",
+      "control_name": "SIMOPS coordination meeting",
+      "control_condition": "Effective"
+    },
+    {
+      "control_id": "DC-021",
+      "factor_id": "DF-024",
+      "control_name": "Pre-job inspection",
+      "control_condition": "Effective"
+    },
+    {
+      "control_id": "DC-022",
+      "factor_id": "DF-025",
+      "control_name": "Training refresh",
+      "control_condition": "Partially Effective"
+    },
+    {
+      "control_id": "DC-023",
+      "factor_id": "DF-026",
+      "control_name": "Shift limits",
+      "control_condition": "Effective"
+    }
+  ],
+  "assurance_activities": [
+    {
+      "activity_id": "AA-001",
+      "barrier_id": "B-001",
+      "activity_type": "Inspection",
+      "status": "Completed",
+      "result": "Pass",
+      "due_date": "2026-08-11",
+      "completed_date": "2026-08-11",
+      "planned_per_year": 1,
+      "actual_per_year": 1
+    },
+    {
+      "activity_id": "AA-002",
+      "barrier_id": "B-002",
+      "activity_type": "Audit",
+      "status": "Completed",
+      "result": "Pass",
+      "due_date": "2026-08-12",
+      "completed_date": "2026-08-12",
+      "planned_per_year": 2,
+      "actual_per_year": 2
+    },
+    {
+      "activity_id": "AA-003",
+      "barrier_id": "B-003",
+      "activity_type": "Inspection",
+      "status": "Completed",
+      "result": "Pass",
+      "due_date": "2026-08-13",
+      "completed_date": "2026-08-13",
+      "planned_per_year": 1,
+      "actual_per_year": 1
+    },
+    {
+      "activity_id": "AA-004",
+      "barrier_id": "B-004",
+      "activity_type": "Audit",
+      "status": "Overdue",
+      "result": null,
+      "due_date": "2026-09-09",
+      "completed_date": null,
+      "planned_per_year": 2,
+      "actual_per_year": 2
+    },
+    {
+      "activity_id": "AA-005",
+      "barrier_id": "B-005",
+      "activity_type": "Functional test",
+      "status": "Completed",
+      "result": "Pass",
+      "due_date": "2026-08-15",
+      "completed_date": "2026-08-15",
+      "planned_per_year": 4,
+      "actual_per_year": 4
+    },
+    {
+      "activity_id": "AA-006",
+      "barrier_id": "B-006",
+      "activity_type": "Functional test",
+      "status": "Completed",
+      "result": "Fail",
+      "due_date": "2026-08-16",
+      "completed_date": "2026-08-16",
+      "planned_per_year": 4,
+      "actual_per_year": 4
+    },
+    {
+      "activity_id": "AA-007",
+      "barrier_id": "B-007",
+      "activity_type": "Audit",
+      "status": "Completed",
+      "result": "Pass",
+      "due_date": "2026-08-17",
+      "completed_date": "2026-08-17",
+      "planned_per_year": 2,
+      "actual_per_year": 2
+    },
+    {
+      "activity_id": "AA-008",
+      "barrier_id": "B-008",
+      "activity_type": "Audit",
+      "status": "Completed",
+      "result": "Pass",
+      "due_date": "2026-08-18",
+      "completed_date": "2026-08-18",
+      "planned_per_year": 2,
+      "actual_per_year": 2
+    },
+    {
+      "activity_id": "AA-009",
+      "barrier_id": "B-009",
+      "activity_type": "Audit",
+      "status": "Completed",
+      "result": "Pass",
+      "due_date": "2026-08-19",
+      "completed_date": "2026-08-19",
+      "planned_per_year": 2,
+      "actual_per_year": 2
+    },
+    {
+      "activity_id": "AA-010",
+      "barrier_id": "B-011",
+      "activity_type": "Inspection",
+      "status": "Completed",
+      "result": "Pass",
+      "due_date": "2026-08-20",
+      "completed_date": "2026-08-20",
+      "planned_per_year": 1,
+      "actual_per_year": 1
+    },
+    {
+      "activity_id": "AA-011",
+      "barrier_id": "B-012",
+      "activity_type": "Inspection",
+      "status": "Completed",
+      "result": "Pass",
+      "due_date": "2026-08-21",
+      "completed_date": "2026-08-21",
+      "planned_per_year": 1,
+      "actual_per_year": 1
+    },
+    {
+      "activity_id": "AA-012",
+      "barrier_id": "B-013",
+      "activity_type": "Functional test",
+      "status": "Pending",
+      "result": null,
+      "due_date": "2026-11-17",
+      "completed_date": null,
+      "planned_per_year": 2,
+      "actual_per_year": 2
+    },
+    {
+      "activity_id": "AA-013",
+      "barrier_id": "B-014",
+      "activity_type": "Audit",
+      "status": "Completed",
+      "result": "Pass",
+      "due_date": "2026-08-23",
+      "completed_date": "2026-08-23",
+      "planned_per_year": 2,
+      "actual_per_year": 2
+    },
+    {
+      "activity_id": "AA-014",
+      "barrier_id": "B-015",
+      "activity_type": "Drill",
+      "status": "Completed",
+      "result": "Pass",
+      "due_date": "2026-08-24",
+      "completed_date": "2026-08-24",
+      "planned_per_year": 2,
+      "actual_per_year": 2
+    },
+    {
+      "activity_id": "AA-015",
+      "barrier_id": "B-016",
+      "activity_type": "Functional test",
+      "status": "Completed",
+      "result": "Pass",
+      "due_date": "2026-08-10",
+      "completed_date": "2026-08-10",
+      "planned_per_year": 4,
+      "actual_per_year": 3
+    },
+    {
+      "activity_id": "AA-016",
+      "barrier_id": "B-017",
+      "activity_type": "Functional test",
+      "status": "Completed",
+      "result": "Fail",
+      "due_date": "2026-08-11",
+      "completed_date": "2026-08-11",
+      "planned_per_year": 4,
+      "actual_per_year": 4
+    },
+    {
+      "activity_id": "AA-017",
+      "barrier_id": "B-018",
+      "activity_type": "Functional test",
+      "status": "Completed",
+      "result": "Pass",
+      "due_date": "2026-08-12",
+      "completed_date": "2026-08-12",
+      "planned_per_year": 4,
+      "actual_per_year": 4
+    },
+    {
+      "activity_id": "AA-018",
+      "barrier_id": "B-019",
+      "activity_type": "Drill",
+      "status": "Completed",
+      "result": "Fail",
+      "due_date": "2026-08-13",
+      "completed_date": "2026-08-13",
+      "planned_per_year": 2,
+      "actual_per_year": 2
+    },
+    {
+      "activity_id": "AA-019",
+      "barrier_id": "B-020",
+      "activity_type": "Inspection",
+      "status": "Completed",
+      "result": "Pass",
+      "due_date": "2026-08-14",
+      "completed_date": "2026-08-14",
+      "planned_per_year": 1,
+      "actual_per_year": 1
+    },
+    {
+      "activity_id": "AA-020",
+      "barrier_id": "B-021",
+      "activity_type": "Functional test",
+      "status": "Completed",
+      "result": "Pass",
+      "due_date": "2026-08-15",
+      "completed_date": "2026-08-15",
+      "planned_per_year": 4,
+      "actual_per_year": 3
+    },
+    {
+      "activity_id": "AA-021",
+      "barrier_id": "B-022",
+      "activity_type": "Audit",
+      "status": "Overdue",
+      "result": null,
+      "due_date": "2026-09-06",
+      "completed_date": null,
+      "planned_per_year": 2,
+      "actual_per_year": 2
+    },
+    {
+      "activity_id": "AA-022",
+      "barrier_id": "B-023",
+      "activity_type": "Functional test",
+      "status": "Completed",
+      "result": "Pass",
+      "due_date": "2026-08-17",
+      "completed_date": "2026-08-17",
+      "planned_per_year": 4,
+      "actual_per_year": 4
+    },
+    {
+      "activity_id": "AA-023",
+      "barrier_id": "B-024",
+      "activity_type": "Inspection",
+      "status": "Completed",
+      "result": "Pass",
+      "due_date": "2026-08-18",
+      "completed_date": "2026-08-18",
+      "planned_per_year": 1,
+      "actual_per_year": 1
+    },
+    {
+      "activity_id": "AA-024",
+      "barrier_id": "B-025",
+      "activity_type": "Audit",
+      "status": "Completed",
+      "result": "Pass",
+      "due_date": "2026-08-19",
+      "completed_date": "2026-08-19",
+      "planned_per_year": 2,
+      "actual_per_year": 2
+    },
+    {
+      "activity_id": "AA-025",
+      "barrier_id": "B-026",
+      "activity_type": "Inspection",
+      "status": "Completed",
+      "result": "Pass",
+      "due_date": "2026-08-20",
+      "completed_date": "2026-08-20",
+      "planned_per_year": 1,
+      "actual_per_year": 1
+    },
+    {
+      "activity_id": "AA-026",
+      "barrier_id": "B-027",
+      "activity_type": "Audit",
+      "status": "Overdue",
+      "result": null,
+      "due_date": "2026-09-11",
+      "completed_date": null,
+      "planned_per_year": 2,
+      "actual_per_year": 2
+    },
+    {
+      "activity_id": "AA-027",
+      "barrier_id": "B-028",
+      "activity_type": "Audit",
+      "status": "Completed",
+      "result": "Pass",
+      "due_date": "2026-08-22",
+      "completed_date": "2026-08-22",
+      "planned_per_year": 2,
+      "actual_per_year": 2
+    },
+    {
+      "activity_id": "AA-028",
+      "barrier_id": "B-029",
+      "activity_type": "Inspection",
+      "status": "Completed",
+      "result": "Pass",
+      "due_date": "2026-08-23",
+      "completed_date": "2026-08-23",
+      "planned_per_year": 1,
+      "actual_per_year": 1
+    },
+    {
+      "activity_id": "AA-029",
+      "barrier_id": "B-030",
+      "activity_type": "Functional test",
+      "status": "Completed",
+      "result": "Pass",
+      "due_date": "2026-08-24",
+      "completed_date": "2026-08-24",
+      "planned_per_year": 2,
+      "actual_per_year": 2
+    },
+    {
+      "activity_id": "AA-030",
+      "barrier_id": "B-031",
+      "activity_type": "Functional test",
+      "status": "Overdue",
+      "result": null,
+      "due_date": "2026-09-15",
+      "completed_date": null,
+      "planned_per_year": 4,
+      "actual_per_year": 4
+    },
+    {
+      "activity_id": "AA-031",
+      "barrier_id": "B-032",
+      "activity_type": "Functional test",
+      "status": "Completed",
+      "result": "Pass",
+      "due_date": "2026-08-11",
+      "completed_date": "2026-08-11",
+      "planned_per_year": 4,
+      "actual_per_year": 3
+    },
+    {
+      "activity_id": "AA-032",
+      "barrier_id": "B-035",
+      "activity_type": "Drill",
+      "status": "Completed",
+      "result": "Pass",
+      "due_date": "2026-08-12",
+      "completed_date": "2026-08-12",
+      "planned_per_year": 2,
+      "actual_per_year": 2
+    },
+    {
+      "activity_id": "AA-033",
+      "barrier_id": "B-036",
+      "activity_type": "Functional test",
+      "status": "Completed",
+      "result": "Pass",
+      "due_date": "2026-08-13",
+      "completed_date": "2026-08-13",
+      "planned_per_year": 4,
+      "actual_per_year": 3
+    },
+    {
+      "activity_id": "AA-034",
+      "barrier_id": "B-037",
+      "activity_type": "Inspection",
+      "status": "Completed",
+      "result": "Pass",
+      "due_date": "2026-08-14",
+      "completed_date": "2026-08-14",
+      "planned_per_year": 1,
+      "actual_per_year": 1
+    },
+    {
+      "activity_id": "AA-035",
+      "barrier_id": "B-038",
+      "activity_type": "Audit",
+      "status": "Pending",
+      "result": null,
+      "due_date": "2026-11-20",
+      "completed_date": null,
+      "planned_per_year": 2,
+      "actual_per_year": 2
+    },
+    {
+      "activity_id": "AA-036",
+      "barrier_id": "B-039",
+      "activity_type": "Audit",
+      "status": "Overdue",
+      "result": null,
+      "due_date": "2026-09-21",
+      "completed_date": null,
+      "planned_per_year": 2,
+      "actual_per_year": 2
+    },
+    {
+      "activity_id": "AA-037",
+      "barrier_id": "B-040",
+      "activity_type": "Functional test",
+      "status": "Pending",
+      "result": null,
+      "due_date": "2026-11-22",
+      "completed_date": null,
+      "planned_per_year": 2,
+      "actual_per_year": 2
+    },
+    {
+      "activity_id": "AA-038",
+      "barrier_id": "B-041",
+      "activity_type": "Inspection",
+      "status": "Completed",
+      "result": "Pass",
+      "due_date": "2026-08-18",
+      "completed_date": "2026-08-18",
+      "planned_per_year": 1,
+      "actual_per_year": 1
+    },
+    {
+      "activity_id": "AA-039",
+      "barrier_id": "B-042",
+      "activity_type": "Functional test",
+      "status": "Completed",
+      "result": "Fail",
+      "due_date": "2026-08-19",
+      "completed_date": "2026-08-19",
+      "planned_per_year": 4,
+      "actual_per_year": 4
+    },
+    {
+      "activity_id": "AA-040",
+      "barrier_id": "B-043",
+      "activity_type": "Audit",
+      "status": "Completed",
+      "result": "Pass",
+      "due_date": "2026-08-20",
+      "completed_date": "2026-08-20",
+      "planned_per_year": 2,
+      "actual_per_year": 2
+    },
+    {
+      "activity_id": "AA-041",
+      "barrier_id": "B-044",
+      "activity_type": "Functional test",
+      "status": "Completed",
+      "result": "Pass",
+      "due_date": "2026-08-21",
+      "completed_date": "2026-08-21",
+      "planned_per_year": 4,
+      "actual_per_year": 4
+    },
+    {
+      "activity_id": "AA-042",
+      "barrier_id": "B-045",
+      "activity_type": "Drill",
+      "status": "Pending",
+      "result": null,
+      "due_date": "2026-11-07",
+      "completed_date": null,
+      "planned_per_year": 2,
+      "actual_per_year": 2
+    },
+    {
+      "activity_id": "AA-043",
+      "barrier_id": "B-046",
+      "activity_type": "Inspection",
+      "status": "Completed",
+      "result": "Pass",
+      "due_date": "2026-08-23",
+      "completed_date": "2026-08-23",
+      "planned_per_year": 1,
+      "actual_per_year": 1
+    },
+    {
+      "activity_id": "AA-044",
+      "barrier_id": "B-047",
+      "activity_type": "Audit",
+      "status": "Overdue",
+      "result": null,
+      "due_date": "2026-09-09",
+      "completed_date": null,
+      "planned_per_year": 2,
+      "actual_per_year": 2
+    },
+    {
+      "activity_id": "AA-045",
+      "barrier_id": "B-048",
+      "activity_type": "Functional test",
+      "status": "Completed",
+      "result": "Pass",
+      "due_date": "2026-08-10",
+      "completed_date": "2026-08-10",
+      "planned_per_year": 4,
+      "actual_per_year": 4
+    },
+    {
+      "activity_id": "AA-046",
+      "barrier_id": "B-049",
+      "activity_type": "Functional test",
+      "status": "Completed",
+      "result": "Pass",
+      "due_date": "2026-08-11",
+      "completed_date": "2026-08-11",
+      "planned_per_year": 4,
+      "actual_per_year": 4
+    },
+    {
+      "activity_id": "AA-047",
+      "barrier_id": "B-050",
+      "activity_type": "Functional test",
+      "status": "Pending",
+      "result": null,
+      "due_date": "2026-11-12",
+      "completed_date": null,
+      "planned_per_year": 4,
+      "actual_per_year": 4
+    },
+    {
+      "activity_id": "AA-048",
+      "barrier_id": "B-051",
+      "activity_type": "Functional test",
+      "status": "Completed",
+      "result": "Pass",
+      "due_date": "2026-08-13",
+      "completed_date": "2026-08-13",
+      "planned_per_year": 4,
+      "actual_per_year": 4
+    },
+    {
+      "activity_id": "AA-049",
+      "barrier_id": "B-052",
+      "activity_type": "Audit",
+      "status": "Pending",
+      "result": null,
+      "due_date": "2026-11-14",
+      "completed_date": null,
+      "planned_per_year": 2,
+      "actual_per_year": 2
+    },
+    {
+      "activity_id": "AA-050",
+      "barrier_id": "B-053",
+      "activity_type": "Functional test",
+      "status": "Completed",
+      "result": "Pass",
+      "due_date": "2026-08-15",
+      "completed_date": "2026-08-15",
+      "planned_per_year": 4,
+      "actual_per_year": 3
+    },
+    {
+      "activity_id": "AA-051",
+      "barrier_id": "B-055",
+      "activity_type": "Functional test",
+      "status": "Completed",
+      "result": "Pass",
+      "due_date": "2026-08-16",
+      "completed_date": "2026-08-16",
+      "planned_per_year": 4,
+      "actual_per_year": 4
+    },
+    {
+      "activity_id": "AA-052",
+      "barrier_id": "B-056",
+      "activity_type": "Functional test",
+      "status": "Completed",
+      "result": "Pass",
+      "due_date": "2026-08-17",
+      "completed_date": "2026-08-17",
+      "planned_per_year": 4,
+      "actual_per_year": 4
+    },
+    {
+      "activity_id": "AA-053",
+      "barrier_id": "B-057",
+      "activity_type": "Functional test",
+      "status": "Overdue",
+      "result": null,
+      "due_date": "2026-09-18",
+      "completed_date": null,
+      "planned_per_year": 4,
+      "actual_per_year": 4
+    },
+    {
+      "activity_id": "AA-054",
+      "barrier_id": "B-059",
+      "activity_type": "Audit",
+      "status": "Completed",
+      "result": "Pass",
+      "due_date": "2026-08-19",
+      "completed_date": "2026-08-19",
+      "planned_per_year": 2,
+      "actual_per_year": 2
+    },
+    {
+      "activity_id": "AA-055",
+      "barrier_id": "B-060",
+      "activity_type": "Inspection",
+      "status": "Completed",
+      "result": "Pass",
+      "due_date": "2026-08-20",
+      "completed_date": "2026-08-20",
+      "planned_per_year": 1,
+      "actual_per_year": 1
+    },
+    {
+      "activity_id": "AA-056",
+      "barrier_id": "B-061",
+      "activity_type": "Audit",
+      "status": "Completed",
+      "result": "Fail",
+      "due_date": "2026-08-21",
+      "completed_date": "2026-08-21",
+      "planned_per_year": 2,
+      "actual_per_year": 2
+    },
+    {
+      "activity_id": "AA-057",
+      "barrier_id": "B-062",
+      "activity_type": "Inspection",
+      "status": "Completed",
+      "result": "Pass",
+      "due_date": "2026-08-22",
+      "completed_date": "2026-08-22",
+      "planned_per_year": 1,
+      "actual_per_year": 1
+    }
+  ],
+  "barrier_standards": [
+    {
+      "link_id": "BS-001",
+      "barrier_id": "B-001",
+      "standard_code": "API 653 Tank Inspection",
+      "verification_status": "Verified",
+      "conflict_flag": "No"
+    },
+    {
+      "link_id": "BS-002",
+      "barrier_id": "B-002",
+      "standard_code": "API 653 Tank Inspection",
+      "verification_status": "Verified",
+      "conflict_flag": "No"
+    },
+    {
+      "link_id": "BS-003",
+      "barrier_id": "B-002",
+      "standard_code": "API 580 Risk-Based Inspection",
+      "verification_status": "Pending",
+      "conflict_flag": "No"
+    },
+    {
+      "link_id": "BS-004",
+      "barrier_id": "B-003",
+      "standard_code": "API 653 Tank Inspection",
+      "verification_status": "Verified",
+      "conflict_flag": "No"
+    },
+    {
+      "link_id": "BS-005",
+      "barrier_id": "B-004",
+      "standard_code": "API 653 Tank Inspection",
+      "verification_status": "Pending",
+      "conflict_flag": "No"
+    },
+    {
+      "link_id": "BS-006",
+      "barrier_id": "B-005",
+      "standard_code": "API 2350 Overfill Protection",
+      "verification_status": "Verified",
+      "conflict_flag": "No"
+    },
+    {
+      "link_id": "BS-007",
+      "barrier_id": "B-005",
+      "standard_code": "IEC 61511 Functional Safety",
+      "verification_status": "Verified",
+      "conflict_flag": "No"
+    },
+    {
+      "link_id": "BS-008",
+      "barrier_id": "B-006",
+      "standard_code": "API 2350 Overfill Protection",
+      "verification_status": "Verified",
+      "conflict_flag": "No"
+    },
+    {
+      "link_id": "BS-009",
+      "barrier_id": "B-009",
+      "standard_code": "API 653 Tank Inspection",
+      "verification_status": "Verified",
+      "conflict_flag": "No"
+    },
+    {
+      "link_id": "BS-010",
+      "barrier_id": "B-010",
+      "standard_code": "ASME B31.3 Process Piping",
+      "verification_status": "Missing documentation",
+      "conflict_flag": "No"
+    },
+    {
+      "link_id": "BS-011",
+      "barrier_id": "B-011",
+      "standard_code": "ASME B31.3 Process Piping",
+      "verification_status": "Verified",
+      "conflict_flag": "No"
+    },
+    {
+      "link_id": "BS-012",
+      "barrier_id": "B-013",
+      "standard_code": "IEC 62305 Lightning Protection",
+      "verification_status": "Verified",
+      "conflict_flag": "No"
+    },
+    {
+      "link_id": "BS-013",
+      "barrier_id": "B-014",
+      "standard_code": "OSHA 1910.119 Process Safety",
+      "verification_status": "Verified",
+      "conflict_flag": "No"
+    },
+    {
+      "link_id": "BS-014",
+      "barrier_id": "B-015",
+      "standard_code": "OSHA 1910.119 Process Safety",
+      "verification_status": "Verified",
+      "conflict_flag": "No"
+    },
+    {
+      "link_id": "BS-015",
+      "barrier_id": "B-016",
+      "standard_code": "API 521 Pressure Relief",
+      "verification_status": "Verified",
+      "conflict_flag": "No"
+    },
+    {
+      "link_id": "BS-016",
+      "barrier_id": "B-016",
+      "standard_code": "ASME B31.3 Process Piping",
+      "verification_status": "Verified",
+      "conflict_flag": "No"
+    },
+    {
+      "link_id": "BS-017",
+      "barrier_id": "B-017",
+      "standard_code": "IEC 61511 Functional Safety",
+      "verification_status": "Missing documentation",
+      "conflict_flag": "No"
+    },
+    {
+      "link_id": "BS-018",
+      "barrier_id": "B-018",
+      "standard_code": "IEC 61511 Functional Safety",
+      "verification_status": "Verified",
+      "conflict_flag": "No"
+    },
+    {
+      "link_id": "BS-019",
+      "barrier_id": "B-019",
+      "standard_code": "IEC 61511 Functional Safety",
+      "verification_status": "Verified",
+      "conflict_flag": "No"
+    },
+    {
+      "link_id": "BS-020",
+      "barrier_id": "B-020",
+      "standard_code": "ASME B31.3 Process Piping",
+      "verification_status": "Verified",
+      "conflict_flag": "No"
+    },
+    {
+      "link_id": "BS-021",
+      "barrier_id": "B-021",
+      "standard_code": "API 521 Pressure Relief",
+      "verification_status": "Verified",
+      "conflict_flag": "No"
+    },
+    {
+      "link_id": "BS-022",
+      "barrier_id": "B-023",
+      "standard_code": "IEC 61511 Functional Safety",
+      "verification_status": "Verified",
+      "conflict_flag": "No"
+    },
+    {
+      "link_id": "BS-023",
+      "barrier_id": "B-024",
+      "standard_code": "API 653 Tank Inspection",
+      "verification_status": "Verified",
+      "conflict_flag": "No"
+    },
+    {
+      "link_id": "BS-024",
+      "barrier_id": "B-025",
+      "standard_code": "API 653 Tank Inspection",
+      "verification_status": "Verified",
+      "conflict_flag": "No"
+    },
+    {
+      "link_id": "BS-025",
+      "barrier_id": "B-030",
+      "standard_code": "API 670 Machinery Protection",
+      "verification_status": "Verified",
+      "conflict_flag": "No"
+    },
+    {
+      "link_id": "BS-026",
+      "barrier_id": "B-031",
+      "standard_code": "API 670 Machinery Protection",
+      "verification_status": "Pending",
+      "conflict_flag": "No"
+    },
+    {
+      "link_id": "BS-027",
+      "barrier_id": "B-032",
+      "standard_code": "API 670 Machinery Protection",
+      "verification_status": "Verified",
+      "conflict_flag": "No"
+    },
+    {
+      "link_id": "BS-028",
+      "barrier_id": "B-035",
+      "standard_code": "NFPA 51B Hot Work",
+      "verification_status": "Verified",
+      "conflict_flag": "No"
+    },
+    {
+      "link_id": "BS-029",
+      "barrier_id": "B-036",
+      "standard_code": "NFPA 72 Fire Alarms",
+      "verification_status": "Verified",
+      "conflict_flag": "No"
+    },
+    {
+      "link_id": "BS-030",
+      "barrier_id": "B-036",
+      "standard_code": "IEC 61511 Functional Safety",
+      "verification_status": "Verified",
+      "conflict_flag": "No"
+    },
+    {
+      "link_id": "BS-031",
+      "barrier_id": "B-037",
+      "standard_code": "NFPA 51B Hot Work",
+      "verification_status": "Verified",
+      "conflict_flag": "No"
+    },
+    {
+      "link_id": "BS-032",
+      "barrier_id": "B-038",
+      "standard_code": "NFPA 51B Hot Work",
+      "verification_status": "Verified",
+      "conflict_flag": "No"
+    },
+    {
+      "link_id": "BS-033",
+      "barrier_id": "B-038",
+      "standard_code": "OSHA 1910.119 Process Safety",
+      "verification_status": "Pending",
+      "conflict_flag": "No"
+    },
+    {
+      "link_id": "BS-034",
+      "barrier_id": "B-040",
+      "standard_code": "NFPA 69 Explosion Prevention",
+      "verification_status": "Verified",
+      "conflict_flag": "No"
+    },
+    {
+      "link_id": "BS-035",
+      "barrier_id": "B-041",
+      "standard_code": "NFPA 30 Flammable Liquids",
+      "verification_status": "Verified",
+      "conflict_flag": "No"
+    },
+    {
+      "link_id": "BS-036",
+      "barrier_id": "B-042",
+      "standard_code": "NFPA 11 Foam Systems",
+      "verification_status": "Verified",
+      "conflict_flag": "Yes"
+    },
+    {
+      "link_id": "BS-037",
+      "barrier_id": "B-042",
+      "standard_code": "NFPA 30 Flammable Liquids",
+      "verification_status": "Verified",
+      "conflict_flag": "Yes"
+    },
+    {
+      "link_id": "BS-038",
+      "barrier_id": "B-043",
+      "standard_code": "OSHA 1910.119 Process Safety",
+      "verification_status": "Verified",
+      "conflict_flag": "No"
+    },
+    {
+      "link_id": "BS-039",
+      "barrier_id": "B-044",
+      "standard_code": "NFPA 72 Fire Alarms",
+      "verification_status": "Verified",
+      "conflict_flag": "No"
+    },
+    {
+      "link_id": "BS-040",
+      "barrier_id": "B-045",
+      "standard_code": "NFPA 30 Flammable Liquids",
+      "verification_status": "Pending",
+      "conflict_flag": "No"
+    },
+    {
+      "link_id": "BS-041",
+      "barrier_id": "B-046",
+      "standard_code": "NFPA 30 Flammable Liquids",
+      "verification_status": "Verified",
+      "conflict_flag": "No"
+    },
+    {
+      "link_id": "BS-042",
+      "barrier_id": "B-048",
+      "standard_code": "IEC 61511 Functional Safety",
+      "verification_status": "Verified",
+      "conflict_flag": "Yes"
+    },
+    {
+      "link_id": "BS-043",
+      "barrier_id": "B-048",
+      "standard_code": "API 521 Pressure Relief",
+      "verification_status": "Verified",
+      "conflict_flag": "Yes"
+    },
+    {
+      "link_id": "BS-044",
+      "barrier_id": "B-049",
+      "standard_code": "NFPA 72 Fire Alarms",
+      "verification_status": "Verified",
+      "conflict_flag": "No"
+    },
+    {
+      "link_id": "BS-045",
+      "barrier_id": "B-050",
+      "standard_code": "API 521 Pressure Relief",
+      "verification_status": "Pending",
+      "conflict_flag": "No"
+    },
+    {
+      "link_id": "BS-046",
+      "barrier_id": "B-051",
+      "standard_code": "IEC 61511 Functional Safety",
+      "verification_status": "Verified",
+      "conflict_flag": "No"
+    },
+    {
+      "link_id": "BS-047",
+      "barrier_id": "B-053",
+      "standard_code": "ASME B31.3 Process Piping",
+      "verification_status": "Verified",
+      "conflict_flag": "No"
+    },
+    {
+      "link_id": "BS-048",
+      "barrier_id": "B-056",
+      "standard_code": "IEC 61511 Functional Safety",
+      "verification_status": "Verified",
+      "conflict_flag": "No"
+    },
+    {
+      "link_id": "BS-049",
+      "barrier_id": "B-057",
+      "standard_code": "NFPA 15 Water Spray",
+      "verification_status": "Verified",
+      "conflict_flag": "No"
+    },
+    {
+      "link_id": "BS-050",
+      "barrier_id": "B-059",
+      "standard_code": "NFPA 51B Hot Work",
+      "verification_status": "Verified",
+      "conflict_flag": "No"
+    }
+  ],
+  "scoring_matrix": [
+    {
+      "barrier_type": "Passive Hardware",
+      "function": "Elimination",
+      "condition": "Effective",
+      "score": 100
+    },
+    {
+      "barrier_type": "Passive Hardware",
+      "function": "Elimination",
+      "condition": "Partially Effective",
+      "score": 75
+    },
+    {
+      "barrier_type": "Passive Hardware",
+      "function": "Elimination",
+      "condition": "Unknown",
+      "score": 60
+    },
+    {
+      "barrier_type": "Passive Hardware",
+      "function": "Elimination",
+      "condition": "Not Effective",
+      "score": 20
+    },
+    {
+      "barrier_type": "Passive Hardware",
+      "function": "Prevention",
+      "condition": "Effective",
+      "score": 95
+    },
+    {
+      "barrier_type": "Passive Hardware",
+      "function": "Prevention",
+      "condition": "Partially Effective",
+      "score": 70
+    },
+    {
+      "barrier_type": "Passive Hardware",
+      "function": "Prevention",
+      "condition": "Unknown",
+      "score": 55
+    },
+    {
+      "barrier_type": "Passive Hardware",
+      "function": "Prevention",
+      "condition": "Not Effective",
+      "score": 15
+    },
+    {
+      "barrier_type": "Passive Hardware",
+      "function": "Control",
+      "condition": "Effective",
+      "score": 85
+    },
+    {
+      "barrier_type": "Passive Hardware",
+      "function": "Control",
+      "condition": "Partially Effective",
+      "score": 60
+    },
+    {
+      "barrier_type": "Passive Hardware",
+      "function": "Control",
+      "condition": "Unknown",
+      "score": 45
+    },
+    {
+      "barrier_type": "Passive Hardware",
+      "function": "Control",
+      "condition": "Not Effective",
+      "score": 5
+    },
+    {
+      "barrier_type": "Passive Hardware",
+      "function": "Mitigation",
+      "condition": "Effective",
+      "score": 80
+    },
+    {
+      "barrier_type": "Passive Hardware",
+      "function": "Mitigation",
+      "condition": "Partially Effective",
+      "score": 55
+    },
+    {
+      "barrier_type": "Passive Hardware",
+      "function": "Mitigation",
+      "condition": "Unknown",
+      "score": 40
+    },
+    {
+      "barrier_type": "Passive Hardware",
+      "function": "Mitigation",
+      "condition": "Not Effective",
+      "score": 0
+    },
+    {
+      "barrier_type": "Active Hardware",
+      "function": "Elimination",
+      "condition": "Effective",
+      "score": 95
+    },
+    {
+      "barrier_type": "Active Hardware",
+      "function": "Elimination",
+      "condition": "Partially Effective",
+      "score": 70
+    },
+    {
+      "barrier_type": "Active Hardware",
+      "function": "Elimination",
+      "condition": "Unknown",
+      "score": 55
+    },
+    {
+      "barrier_type": "Active Hardware",
+      "function": "Elimination",
+      "condition": "Not Effective",
+      "score": 15
+    },
+    {
+      "barrier_type": "Active Hardware",
+      "function": "Prevention",
+      "condition": "Effective",
+      "score": 90
+    },
+    {
+      "barrier_type": "Active Hardware",
+      "function": "Prevention",
+      "condition": "Partially Effective",
+      "score": 65
+    },
+    {
+      "barrier_type": "Active Hardware",
+      "function": "Prevention",
+      "condition": "Unknown",
+      "score": 50
+    },
+    {
+      "barrier_type": "Active Hardware",
+      "function": "Prevention",
+      "condition": "Not Effective",
+      "score": 10
+    },
+    {
+      "barrier_type": "Active Hardware",
+      "function": "Control",
+      "condition": "Effective",
+      "score": 80
+    },
+    {
+      "barrier_type": "Active Hardware",
+      "function": "Control",
+      "condition": "Partially Effective",
+      "score": 55
+    },
+    {
+      "barrier_type": "Active Hardware",
+      "function": "Control",
+      "condition": "Unknown",
+      "score": 40
+    },
+    {
+      "barrier_type": "Active Hardware",
+      "function": "Control",
+      "condition": "Not Effective",
+      "score": 0
+    },
+    {
+      "barrier_type": "Active Hardware",
+      "function": "Mitigation",
+      "condition": "Effective",
+      "score": 75
+    },
+    {
+      "barrier_type": "Active Hardware",
+      "function": "Mitigation",
+      "condition": "Partially Effective",
+      "score": 50
+    },
+    {
+      "barrier_type": "Active Hardware",
+      "function": "Mitigation",
+      "condition": "Unknown",
+      "score": 35
+    },
+    {
+      "barrier_type": "Active Hardware",
+      "function": "Mitigation",
+      "condition": "Not Effective",
+      "score": 0
+    },
+    {
+      "barrier_type": "Continuous Hardware",
+      "function": "Elimination",
+      "condition": "Effective",
+      "score": 92
+    },
+    {
+      "barrier_type": "Continuous Hardware",
+      "function": "Elimination",
+      "condition": "Partially Effective",
+      "score": 67
+    },
+    {
+      "barrier_type": "Continuous Hardware",
+      "function": "Elimination",
+      "condition": "Unknown",
+      "score": 52
+    },
+    {
+      "barrier_type": "Continuous Hardware",
+      "function": "Elimination",
+      "condition": "Not Effective",
+      "score": 12
+    },
+    {
+      "barrier_type": "Continuous Hardware",
+      "function": "Prevention",
+      "condition": "Effective",
+      "score": 87
+    },
+    {
+      "barrier_type": "Continuous Hardware",
+      "function": "Prevention",
+      "condition": "Partially Effective",
+      "score": 62
+    },
+    {
+      "barrier_type": "Continuous Hardware",
+      "function": "Prevention",
+      "condition": "Unknown",
+      "score": 47
+    },
+    {
+      "barrier_type": "Continuous Hardware",
+      "function": "Prevention",
+      "condition": "Not Effective",
+      "score": 7
+    },
+    {
+      "barrier_type": "Continuous Hardware",
+      "function": "Control",
+      "condition": "Effective",
+      "score": 77
+    },
+    {
+      "barrier_type": "Continuous Hardware",
+      "function": "Control",
+      "condition": "Partially Effective",
+      "score": 52
+    },
+    {
+      "barrier_type": "Continuous Hardware",
+      "function": "Control",
+      "condition": "Unknown",
+      "score": 37
+    },
+    {
+      "barrier_type": "Continuous Hardware",
+      "function": "Control",
+      "condition": "Not Effective",
+      "score": 0
+    },
+    {
+      "barrier_type": "Continuous Hardware",
+      "function": "Mitigation",
+      "condition": "Effective",
+      "score": 72
+    },
+    {
+      "barrier_type": "Continuous Hardware",
+      "function": "Mitigation",
+      "condition": "Partially Effective",
+      "score": 47
+    },
+    {
+      "barrier_type": "Continuous Hardware",
+      "function": "Mitigation",
+      "condition": "Unknown",
+      "score": 32
+    },
+    {
+      "barrier_type": "Continuous Hardware",
+      "function": "Mitigation",
+      "condition": "Not Effective",
+      "score": 0
+    },
+    {
+      "barrier_type": "Active Hardware + Human",
+      "function": "Elimination",
+      "condition": "Effective",
+      "score": 88
+    },
+    {
+      "barrier_type": "Active Hardware + Human",
+      "function": "Elimination",
+      "condition": "Partially Effective",
+      "score": 63
+    },
+    {
+      "barrier_type": "Active Hardware + Human",
+      "function": "Elimination",
+      "condition": "Unknown",
+      "score": 48
+    },
+    {
+      "barrier_type": "Active Hardware + Human",
+      "function": "Elimination",
+      "condition": "Not Effective",
+      "score": 8
+    },
+    {
+      "barrier_type": "Active Hardware + Human",
+      "function": "Prevention",
+      "condition": "Effective",
+      "score": 83
+    },
+    {
+      "barrier_type": "Active Hardware + Human",
+      "function": "Prevention",
+      "condition": "Partially Effective",
+      "score": 58
+    },
+    {
+      "barrier_type": "Active Hardware + Human",
+      "function": "Prevention",
+      "condition": "Unknown",
+      "score": 43
+    },
+    {
+      "barrier_type": "Active Hardware + Human",
+      "function": "Prevention",
+      "condition": "Not Effective",
+      "score": 3
+    },
+    {
+      "barrier_type": "Active Hardware + Human",
+      "function": "Control",
+      "condition": "Effective",
+      "score": 73
+    },
+    {
+      "barrier_type": "Active Hardware + Human",
+      "function": "Control",
+      "condition": "Partially Effective",
+      "score": 48
+    },
+    {
+      "barrier_type": "Active Hardware + Human",
+      "function": "Control",
+      "condition": "Unknown",
+      "score": 33
+    },
+    {
+      "barrier_type": "Active Hardware + Human",
+      "function": "Control",
+      "condition": "Not Effective",
+      "score": 0
+    },
+    {
+      "barrier_type": "Active Hardware + Human",
+      "function": "Mitigation",
+      "condition": "Effective",
+      "score": 68
+    },
+    {
+      "barrier_type": "Active Hardware + Human",
+      "function": "Mitigation",
+      "condition": "Partially Effective",
+      "score": 43
+    },
+    {
+      "barrier_type": "Active Hardware + Human",
+      "function": "Mitigation",
+      "condition": "Unknown",
+      "score": 28
+    },
+    {
+      "barrier_type": "Active Hardware + Human",
+      "function": "Mitigation",
+      "condition": "Not Effective",
+      "score": 0
+    },
+    {
+      "barrier_type": "Active Human",
+      "function": "Elimination",
+      "condition": "Effective",
+      "score": 85
+    },
+    {
+      "barrier_type": "Active Human",
+      "function": "Elimination",
+      "condition": "Partially Effective",
+      "score": 60
+    },
+    {
+      "barrier_type": "Active Human",
+      "function": "Elimination",
+      "condition": "Unknown",
+      "score": 45
+    },
+    {
+      "barrier_type": "Active Human",
+      "function": "Elimination",
+      "condition": "Not Effective",
+      "score": 5
+    },
+    {
+      "barrier_type": "Active Human",
+      "function": "Prevention",
+      "condition": "Effective",
+      "score": 80
+    },
+    {
+      "barrier_type": "Active Human",
+      "function": "Prevention",
+      "condition": "Partially Effective",
+      "score": 55
+    },
+    {
+      "barrier_type": "Active Human",
+      "function": "Prevention",
+      "condition": "Unknown",
+      "score": 40
+    },
+    {
+      "barrier_type": "Active Human",
+      "function": "Prevention",
+      "condition": "Not Effective",
+      "score": 0
+    },
+    {
+      "barrier_type": "Active Human",
+      "function": "Control",
+      "condition": "Effective",
+      "score": 70
+    },
+    {
+      "barrier_type": "Active Human",
+      "function": "Control",
+      "condition": "Partially Effective",
+      "score": 45
+    },
+    {
+      "barrier_type": "Active Human",
+      "function": "Control",
+      "condition": "Unknown",
+      "score": 30
+    },
+    {
+      "barrier_type": "Active Human",
+      "function": "Control",
+      "condition": "Not Effective",
+      "score": 0
+    },
+    {
+      "barrier_type": "Active Human",
+      "function": "Mitigation",
+      "condition": "Effective",
+      "score": 65
+    },
+    {
+      "barrier_type": "Active Human",
+      "function": "Mitigation",
+      "condition": "Partially Effective",
+      "score": 40
+    },
+    {
+      "barrier_type": "Active Human",
+      "function": "Mitigation",
+      "condition": "Unknown",
+      "score": 25
+    },
+    {
+      "barrier_type": "Active Human",
+      "function": "Mitigation",
+      "condition": "Not Effective",
+      "score": 0
+    }
+  ]
+}
